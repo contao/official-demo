@@ -1,0 +1,99 @@
+/* Stylesheet file for contao music academy 2
+.............................................
+authors
+@author................: Joe Ray Gregory joe@may17.de
+@author................: Felix Pfeiffer
+@author................: Sascha Müller
+@author................: responsive and mobile by Stefan Melz slashworks stefan@slash-works.de
+
+Style Hints
+@colors
+orange:
+	Example: Used for headlines
+	Hex: ed7404
+	rgb:237,116,4
+darkgrey:
+	Example: Used for base text
+	Hex: 60584d
+	rgb: 95, 88, 82
+............................................. */
+
+/* Native elements */
+body {
+    background-color: #beb1a9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #60584d;
+    font-size:62.5%;
+}
+html{
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* FP: Table on page "content elements" */
+.content-element-list td {
+    vertical-align: top;
+}
+.content-element-list td.col_0,
+.content-element-list th.head_0 {
+    width: 25%;
+}
+.content-element-list td.col_1,
+.content-element-list th.head_1 {
+    width: 20%;
+}
+
+
+
+/* Layout parts */
+#wrapper {
+    background-color: #fbfaf9;
+}
+
+#main {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+  	padding: 0 0 60px;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+#left {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.columns2 #main .inside {
+    padding-left: 10px;
+}
+
+#container {
+	clear: both;
+    padding-bottom: 20px;
+}
+
+.box-1 {
+	border: 1px solid #e5dfdc;
+	background-color: #eae5e2;
+	padding: 1em;
+}
+
+.box-2 {
+	margin-top: 20px;
+	border: 1px solid #e1dad6;
+	border-left: none;
+	background-color: #f4f2f0;
+}
+
+.ie7 #container {zoom: 1;}
+.ie7 #header .inside {position: static;}
+.ie7 .mod_newsmenu ul {margin: 0; padding: 0;}
+
+.pdf_link {
+
+	position: absolute;
+	right: 10px;
+	top: 78px;
+
+}

@@ -1,0 +1,333 @@
+/* forms.css - styles for form elements
+.............................................
+	Authors
+		@author................: Carolina Köhn www.kikmedia.de
+        @author................: responsive and mobile by Stefan Melz slashworks stefan@slash-works.de
+		@author................: modifyed for ma2 by Joe Ray Gregory joe@may17.de
+
+	Style Map
+		1) Generel
+		2) Login
+        3) small displays and tablets
+		4) portrait tablets and phone
+
+............................................. */
+
+/* 1) Generel
+___________________________________________________________*/
+
+.checkbox_container label, .radio_container label{
+  font-weight: normal;
+}
+
+.formbody label { 
+  display: block; margin-top: 1.5em; padding-bottom: 3px;
+}
+
+.formbody .checkbox_container label, .formbody .radio_container label {
+  display: inline;
+}
+/*
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="search"]*/
+form .text,
+form .textarea,
+form .captcha {
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #d4cbc5;
+}
+/*
+#container input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="search"]*/
+form .text,
+form .textarea,
+form .captcha {
+	width: 60%;
+}
+
+.mod_subscribe input[type="text"] { 
+	width: 210px;
+}
+
+textarea { 
+	width: 90%; 
+	height: 140px;
+}
+/*
+input[type="text"]:focus, 
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus*/
+
+form .text:focus,
+form .textarea:focus,
+form .captcha:focus {
+	background: #EDEDED; 
+	border: 1px solid #CFCFCF;
+}
+
+select { 
+	width: 63%; 
+	padding: 4px 3px 4px 1px; 
+	background-color: #fff; 
+	border: 1px solid #CCCCCC;
+}
+
+.checkbox_container span, 
+.radio_container span { 
+	display: block; 
+}
+
+.checkbox_container + br, 
+.radio_container + br {
+	display: none;
+}
+
+.checkbox_container label,
+.checkbox_container input,
+.radio_container label,
+.radio_container input{ 
+	vertical-align: middle; 
+}
+
+.formbody input[type="checkbox"], 
+x:-moz-any-link {
+	top: 0px; 
+	position: relative; 
+}
+
+.checkbox_container { 
+	margin-top: 10px; 
+}
+
+input[type="radio"], 
+x:-moz-any-link {
+	top: 0px; 
+	position: relative; 
+}
+
+.submit_container { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+}
+
+form table td { 
+	padding-top: 3px; 
+	padding-bottom: 3px; 
+}
+
+form table td:first-child { 
+	width: 45%; 
+	padding-bottom: 0px; 
+	text-align: left; 
+}
+
+.tableform table { 
+	width: 92%; 
+	margin-top: 1.5em; 
+	margin-bottom: 0px; 
+}
+
+#container .tableform .formbody, 
+#container .formbody .formbody { 
+	width: 100%; 
+	overflow: hidden;
+}
+
+.formbody .formbody { 
+	padding-top: 0px; 
+}
+
+legend { 
+	padding-right: 6px; 
+	color: #00ADF1; 
+}
+
+fieldset table { 
+	width: 92%; 
+	margin-top: 1em ! important; 
+	margin-bottom: 1em ! important; 
+}
+
+fieldset table td:first-child { 
+	width: 140px; 
+	text-align: left; 
+}
+
+span.mandatory { 
+	display: inline; 
+	padding-left: 2px; 
+	font-weight: bold; 
+	color: #FF0000;
+}
+
+p.confirm { 
+	color: #00ADF1; 
+}
+
+p.error { 
+	margin-bottom: 6px; 
+	font-weight: bold; 
+	color: #FF0000; 
+}
+
+form input.error,
+textarea.error
+/*
+input.error[type="text"],
+input.error[type="email"],
+input.error[type="password"],
+textarea.error */{
+	background-color: #FFFFDD; 
+	border-color: #FF0000; 
+}
+
+input.captcha { 
+	width: 48px; 
+}
+
+span.captcha_text { 
+	font-weight: normal;
+}
+
+:first-child + html span.captcha_text { 
+	top: -3px; 
+	position: relative; 
+}
+
+#container .submit {
+    border: 1px solid #de601a;
+    background: #ff9b50; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff9b50 0%, #fd7d0d 3%, #ee7404 96%, #de601a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9b50), color-stop(3%,#fd7d0d), color-stop(96%,#ee7404), color-stop(100%,#de601a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9b50', endColorstr='#de601a',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.submit:hover { 
+	display: inline-block; 
+	color: #7A7A7A; 
+	cursor: pointer; 
+}
+
+select {
+	width: 63%; 
+	padding: 4px 3px 4px 1px; 
+	border: 1px solid #CCCCCC; 
+}
+
+.checkbox_container span, 
+.radio_container span { 
+	display: block; 
+}
+
+.checkbox_container + br, 
+.radio_container + br { 
+	display: none; 
+}
+
+.checkbox_container label, 
+.checkbox_container input { 
+	vertical-align: middle; 
+}
+
+.formbody input[type="checkbox"], 
+x:-moz-any-link { 
+	top: -2px; 
+	position: relative; 
+}
+
+#ctrl_notify {padding: 0;}
+
+.checkbox_container { 
+	margin-top: 10px;
+
+}
+
+input[type="radio"], 
+x:-moz-any-link { 
+	top: 2px; 
+	position: relative; 
+}
+.submit_container { 
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+}
+
+
+#main .formbody div.submit_container {
+	border-top: 1px dotted #D0C9C2;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+/* 2) Login Box
+___________________________________________________________*/
+
+#container .mod_lostPassword,
+#container .mod_login {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+#container .mod_lostPassword .text,
+#container .mod_login .text {
+	width: 74.4%;
+	display: inline-block;
+}
+
+label,
+#container .mod_login label {
+	width: 20%;
+	display: inline-block;
+}
+
+#container .mod_lostPassword  br,
+#container .mod_login br {
+	display: none;
+}
+
+#container .mod_lostPassword .checkbox_container,
+#container .mod_login .checkbox_container {
+	position: absolute;
+	bottom: 14px;
+	right: 18.5%;
+}
+
+#container .mod_lostPassword .checkbox_container label,
+#container .mod_login .checkbox_container label {
+	width: 120px;
+	margin-top: 7px;
+}
+
+#container .mod_lostPassword .submit_container,
+#container .mod_login .submit_container {
+	position: absolute;
+	bottom: 0;
+	right: 3em;
+	border: none;
+}
+
+#container .grid6 .mod_login .submit_container {
+	right: 1.8em;
+}
+
+#container .mod_login .checkbox {
+	margin-top: 7px;
+}
+

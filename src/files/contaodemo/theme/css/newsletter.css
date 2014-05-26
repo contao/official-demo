@@ -1,0 +1,74 @@
+/* newsletter.css - styles for newsletter elements
+.............................................
+	Authors
+		@author................: Sascha Müller
+        @author................: responsive and mobile by Stefan Melz slashworks stefan@slash-works.de
+		@author................: refactored by Joe Ray Gregory joe@may17.de
+
+	Style Map
+		1) Forms
+		2) Listing
+		3) small displays and tablets
+		4) portrait tablets and phone
+............................................. */
+
+
+/* 1) Forms
+___________________________________________________________*/
+
+.mod_subscribe .checkbox_container,
+.mod_unsubscribe .checkbox_container {
+	margin: 10px 0;
+	padding: 10px 0;
+	border: 1px dotted #D0C9C2;
+	border-left: 0;
+	border-right: 0;
+}
+
+.mod_subscribe .text,
+.mod_unsubscribe .text {
+	width: 40%;
+}
+
+/* 2) Listing
+___________________________________________________________*/
+
+.mod_nl_list {
+  margin: 20px 0 0;
+  border: 1px solid #e1dad6;
+  border-left: none;
+  font-weight: bold;
+  background-color: #f4f2f0;  
+  color: #7f7266;
+}
+
+.mod_nl_list h2
+{
+  margin: 0;
+  padding: 10px;
+  color: #e37a25;
+  border-bottom: 1px solid #e1dad6;
+}
+
+.mod_nl_list ul {
+  	margin: 0; padding: 0;
+	list-style: none;
+}
+.mod_nl_list li {
+  margin: 15px 0 0; padding: 0 10px  15px;
+
+  overflow: hidden;
+}
+
+.mod_nl_list a,
+.mod_nl_list a:visited,
+.mod_nl_list a:hover,
+.mod_nl_list a:focus {
+  padding: 3px 0 0;
+
+  float: left;
+  text-decoration: none;
+}
+
+.mod_nl_list a:hover,
+.mod_nl_list a:focus {color: #e37a25;}

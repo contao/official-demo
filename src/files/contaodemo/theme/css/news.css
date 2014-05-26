@@ -1,0 +1,153 @@
+/* listing.css - styles for contao content elements
+.............................................
+	Authors
+		@author................: Sascha Müller
+		@author................: Joe Ray Gregory joe@may17.de
+
+
+	Style Map
+		1) Teaser
+		2) Newslist
+		3) Layout Simple
+		4) Layout Short
+		5) Newsarchiv
+		6) Newsarchiv Navigation
+............................................. */
+
+
+/* 1) Teaser
+___________________________________________________________*/
+
+
+/* 2) Newslist
+___________________________________________________________*/
+
+.mod_newslist {
+	padding: 0 0 10px;
+  	border-bottom: none;
+}
+
+.mod_newslist .last {
+	border-bottom: 1px solid transparent;
+}
+
+.mod_newslist p.info {
+	font-size: 0.786em; /* 11px */
+	margin-bottom: 0;
+}
+
+/* 3) Layout Simple
+___________________________________________________________*/
+
+
+
+/* 4) Layout Short
+___________________________________________________________*/
+
+.layout_short {margin-bottom:20px; margin-left: 10px; margin-right: 10px;}
+.layout_short h2 {margin-top: 0;}
+
+/* 5) Newsarchiv
+___________________________________________________________*/
+
+.mod_newsarchive p.info {
+    font-size: 0.786em;
+    margin-bottom: 0;
+}
+
+.mod_newsarchive h2 {
+    margin-top: 0;
+}
+
+.mod_newsarchive h1 {
+    padding: 0 10px;
+}
+
+.mod_newsarchive *[class*="layout_"]>*,
+.mod_newsarchive *[class*="event_"]>*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* 6) Newsarchiv Navigation
+___________________________________________________________*/
+
+.mod_newsmenu {
+	margin: 20px 0 0;
+	border-left: none;
+	font-weight: bold;
+}
+
+.mod_newsmenu ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+
+.mod_newsmenu ul > .year {
+    font-size: 1.6em;
+    color: #e37a25;
+    padding-left: 0;
+    /* text-indent: 1em; */
+	border: 1px solid #e1dad6;
+	margin-bottom: 20px;
+	background-color: #f4f2f0;
+}
+
+.mod_newsmenu .year ul {
+	margin-top: 0;
+
+}
+
+.mod_newsmenu a,
+.mod_newsmenu span.active {
+    display: block;
+    padding: 10px;
+    color: #7f7266;
+    text-decoration: none;
+	background: url('../img/icons/icon_arrow-right-grey.png') no-repeat 95% 50%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e1dad6;
+	font-size: .7em;
+}
+
+.mod_newsmenu .year > a,
+.mod_newsmenu .year > span.active {
+	font-size: 0.9em;
+	background-color: #EAE5E2;
+}
+
+.mod_newsmenu a:hover,
+.mod_newsmenu span.active {
+	color: #e37a25;
+	background-image: url('../img/icons/icon_arrow-right-orange.png');
+}
+.mod_newsmenu span.active {
+	background-color: #e37a25;
+	background-image: url('../img/icons/icon_arrow-right-darkorange.png');
+	color: #fff;
+	border-top-color: #ff9b50;
+}
+
+.mod_newsmenu .year > span.active {
+	font-size: 0.9em;
+	background-color: #e37a25;
+}
+
+
+.mod_newsmenu .last a,
+.mod_newsmenu .last span.active,
+.mod_newsmenu span.trail {
+	border-bottom: none;
+}
+
+
+/* 7) Newsreader
+___________________________________________________________*/
+
+.mod_article .mod_newsreader {
+	
+	margin-left: 10px;
+	margin-right: 10px;
+
+}

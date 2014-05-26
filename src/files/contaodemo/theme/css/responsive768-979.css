@@ -1,0 +1,91 @@
+/* Name of the file and short description
+.............................................
+	Authors
+		@author................: Joe Ray Gregory joe@may17.de
+		@author................: Felix Pfeiffer
+		@author................: Sascha Müller
+		@author................: Stefan Melz <stefan@slash-works.de>
+
+
+............................................. */
+
+
+/* landscape tablets and smaller screens
+___________________________________________________________*/
+
+    /*----- navigation ------- */
+
+    .nav-main,
+    .nav-left {
+        font-size: 0.8em;
+    }
+    
+	/*----- layout ------- */
+
+    figure {
+        float: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .caption {
+        margin-bottom: 20px;
+    }
+    
+    /*----- slider on demo content elements page ------- */
+    
+    .sliderdemo .slidebox1 .image_container {
+		
+		opacity: 0.1;
+		z-index: 55;
+		right: -10px;
+		
+	}
+    
+    .sliderdemo .slidebox1 h1,
+	.sliderdemo .slidebox1 p {
+    	margin-right: 10%;
+    	position: absolute;
+    	z-index: 99;
+	}
+	
+	.sliderdemo .slidebox1 p {
+	
+		top: 70px;
+	
+	}
+	
+	.sliderdemo .content-slider .slidebox1 h1,
+	.sliderdemo .content-slider .slidebox1 p {
+    	margin-left: 20px;
+    	margin-right: 10%;
+	}
+
+    /*----- forms ------- */
+	
+	#container .mod_login .text,
+	#container .mod_login label {
+		display: block;
+	}
+	
+	#container .mod_login .text {
+		width: 97%;
+	}
+	
+	#container .mod_login .checkbox_container {
+		left: 1em;
+		right: auto;
+	}
+	
+	#container .mod_login .checkbox_container label {
+		display: inline;
+	}
+	
+	#container .mod_login .submit_container {
+		float: right;
+	}
+	
+	span.captcha_text { 
+		display: block;
+	}
+    
