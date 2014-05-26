@@ -24,7 +24,7 @@ The modification of templates is very simple and straight forward. Nearly every 
 
 Welcome to the official demo website of the open source content managment system Contao. On its pages you will find demonstrations and examples of some of the features this CMS has to offer. The official Contao demo comes with every installation of the CMS and is designed to help you get started with your first web projects.
 
-Like any other content management system Contao is divided into two areas: the back end (administration area) and the front end (website). If you are reading this you are currently viewing the front end. To log in to the back end, simply add /contao to the URL of the site (http://dev.cod.sw-ia.de/contao).
+Like any other content management system Contao is divided into two areas: the back end (administration area) and the front end (website). If you are reading this you are currently viewing the front end. To log in to the back end, simply add /contao to the URL of the site (http://mycod.tld/contao).
 
 This demo contains a scenario demonstrating the different users - admins and editors - and their specific roles and rights within the CMS. Contao covers a lot of different scenarios: from a simple website managed by a single administrator to a community website with a lot of members participating as front end users. Complex company websites as intranet or internet solutions with a lot of back end users can be realized as well.
 
