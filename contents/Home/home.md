@@ -1,6 +1,12 @@
+> ################################################# 
 > Page: Home
+> #################################################
 
+
+
+> ------------------------------------------------
 > Section Slider
+> ------------------------------------------------
 
 # A powerful CMS
 
@@ -14,7 +20,9 @@ Contao ist highly extendible with a lot of extensions build by the great Contao 
 
 The modification of templates is very simple and straight forward. Nearly every template can be modified and with Contao 3.3 it is also possible to create as many extra templates for each element as you like. Take a look at the case studies to see the variety.
 
+> ------------------------------------------------
 > Section Content
+> ------------------------------------------------
 
 ## About this demo
 
