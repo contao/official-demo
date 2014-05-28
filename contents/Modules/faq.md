@@ -16,7 +16,7 @@ To display the FAQ on your website you can choose from three modules in the Cont
 
 The FAQ - List is a frontend module that lets you list your questions and answers from chosen categories. Only the title question and a link to the FAQ - Reader (which needs to be placed on a secondary site) are displayed. It might be a good option to choose this ouput if you have a longer list of questions.
 
-Another way to display information to the visitors is the FAQ - Page module. This module lists all your questions and answers on one page. Linking to another site is not necessary and therefore it is recommanded if you want to show just a few questions and keep all the information on one site. With a little additional code in the mod_faqpage.html5 template you can easily integrate an AJAX accordion which will improve the usability of your FAQ greatly for your visitors.
+Another way to display information to the visitors is the FAQ - Page module. This module lists all your questions and answers on one page. Linking to another site is not necessary and therefore it is recommanded if you want to show just a few questions and keep all the information on one site. With a little additional code in the mod_faqpage.html5 template you can easily integrate a javascript accordion which will improve the usability of your FAQ greatly for your visitors.
 
 Last update on 2014-05-23 by Kevin Jones.
 
