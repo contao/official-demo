@@ -54,7 +54,7 @@ Listing of all media elements
 |------|-----------|-------------|
 | Image | ce_image |	Generates a stand-alone image. |
 | Gallery |	ce_gallery |	Generates a lightbox image gallery. |
-| Video/audio | ce_player |	Generates a HTML5 video or audio player. |
+| Video/audio | ce_player |	Generates an HTML5 video or audio player. |
 | Youtube |	ce_youtube |	Adds a YouTube video. |
 
 ## Download elements
