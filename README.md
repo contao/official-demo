@@ -1,5 +1,5 @@
-Music Academy
-=============
+Contao Official Demo
+====================
 
 This is an example website for Contao Open Source CMS. It can be installed with
 the extension manager in the Contao back end. Visit the [project website][1] for
