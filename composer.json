@@ -1,0 +1,18 @@
+{
+    "name": "contao/official-demo",
+    "type": "contao-module",
+    "description": "Contao Official Demo",
+    "license": "CC-BY-SA-4.0",
+    "require": {
+        "contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "src/files/contaodemo": "files/contaodemo",
+                "src/templates/official-demo.sql": "templates/official-demo.sql",
+                "src/templates/contaodemo": "templates/contaodemo"
+            }
+        }
+    }
+}
