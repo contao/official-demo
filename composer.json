@@ -10,7 +10,7 @@
         "contao": {
             "sources": {
                 "src/files/contaodemo": "files/contaodemo",
-                "src/templates/official-demo.sql": "templates/official-demo.sql",
+                "src/templates/contao_v34_official-demo.sql": "templates/contao_v34_official-demo.sql",
                 "src/templates/contaodemo": "templates/contaodemo"
             }
         }
