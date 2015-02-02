@@ -1,57 +1,48 @@
-/* search.css - styles for search elements
-.............................................
-	Authors
-		@author................: Joe Ray Gregory joe@may17.de
-............................................. */
-
-
 .mod_search .even,
 .mod_search .odd {
-	border-bottom: 1px solid #d4cbc5;
-	margin-bottom: 1px;
+    margin-bottom:1px;
+    border-bottom:1px solid;
+    border-color: #D4CBC5;
 }
-
-.mod_search .last {
-	border-bottom: none;
+.mod_search > .last {
+    border-bottom: none;
 }
-
 .mod_search h3 a,
 .mod_search h3 a:visited,
 .mod_search h3 a:hover,
 .mod_search h3 a:focus,
-.mod_search h3 a:active {text-decoration: none; color: #e37a25;}
-
+.mod_search h3 a:active {
+    text-decoration:none;
+    color: #E37A25;
+}
 .mod_search h3 a:hover,
 .mod_search h3 a:focus,
-.mod_search h3 a:active {text-decoration: underline;}
-
+.mod_search h3 a:active {
+    text-decoration:underline;
+}
 .mod_search h3 a {
-	color: #e37a25;
+    color:#e37a25;
 }
-
 .mod_search .relevance {
-	font-size: 0.8em;
-	padding-left: 10px;
-	color: #60584D;
+    padding-left:10px;
+    font-size:.8em;
+    color:#60584D;
 }
-
 .mod_search .formbody {
-	border: 1px solid #e5dfdc;
-	background-color: #eae5e2;
-	padding: 1em;
+    padding:1em;
+    border:1px solid;
+    border-color: #D4CBC5;
+     background-color: #EEE9E7;
 }
-
 .mod_search .radio_container span {
-	float: left;
-	margin-right: 1em;
+    float:left;
+    margin-right:1em;
 }
-
 .mod_search fieldset {
-	padding: 0;
-	margin: 5px 0 0 0;
+    margin:5px 0 0;
+    padding:0;
 }
-
 .mod_search .highlight {
-	color: #e37a25;
-	font-weight: bold;
+    font-weight:bold;
+    color: #E37A25;
 }

@@ -1,16 +1,11 @@
-/* faq.css - styles for faq elements
-.............................................
-	Authors
-		@author................: Sascha Müller
-		@author................: Felix Pfeiffer
-		@author................: Joe Ray Gregory joe@may17.de
-............................................. */
-
-
-.mod_faqpage section {padding-bottom: 20px;}
+.mod_faqpage section {
+    padding-bottom:20px;
+}
 .mod_faqpage p.info {
-  margin: 10px 0 0; padding: 0 0 5px;
-  font-size: 1.2em; 
-  font-style: italic; 
-  border-bottom: 1px solid #E1DAD6;
+    margin:10px 0 0;
+    padding:0 0 5px;
+    border-bottom:1px solid;
+    font-size:1.2em;
+    font-style:italic;
+    border-color: #D4CBC5;
 }

@@ -1,74 +1,59 @@
-/* newsletter.css - styles for newsletter elements
-.............................................
-	Authors
-		@author................: Sascha Müller
-        @author................: responsive and mobile by Stefan Melz slashworks stefan@slash-works.de
-		@author................: refactored by Joe Ray Gregory joe@may17.de
-
-	Style Map
-		1) Forms
-		2) Listing
-		3) small displays and tablets
-		4) portrait tablets and phone
-............................................. */
-
-
-/* 1) Forms
-___________________________________________________________*/
-
 .mod_subscribe .checkbox_container,
 .mod_unsubscribe .checkbox_container {
-	margin: 10px 0;
-	padding: 10px 0;
-	border: 1px dotted #D0C9C2;
-	border-left: 0;
-	border-right: 0;
+    margin:10px 0;
+    padding:10px 0;
+    border:1px dotted;
+    border-left: 0;
+    border-right: 0;
+    border-color: #D4CBC5;
 }
-
 .mod_subscribe .text,
 .mod_unsubscribe .text {
-	width: 40%;
+    width:40%;
 }
-
-/* 2) Listing
-___________________________________________________________*/
-
+.mod_subscribe form,
+.mod_unsubscribe form {
+    padding:1em;
+    border:1px solid;
+    border-color: #D4CBC5;
+    background-color: #EEE9E7;
+}
 .mod_nl_list {
-  margin: 20px 0 0;
-  border: 1px solid #e1dad6;
-  border-left: none;
-  font-weight: bold;
-  background-color: #f4f2f0;  
-  color: #7f7266;
+    margin:20px 0 0;
+    background-color:#f4f2f0;
+    border:1px solid;
+    font-weight:bold;
+    color:#7f7266;
+    border-left: none;
+    border-color: #D4CBC5;
+    background-color: #EEE9E7;
 }
-
-.mod_nl_list h2
-{
-  margin: 0;
-  padding: 10px;
-  color: #e37a25;
-  border-bottom: 1px solid #e1dad6;
+.mod_nl_list h2 {
+    margin:0;
+    padding:10px;
+    border-bottom:1px solid;
+    color:#e37a25;
+    border-color: #D4CBC5;
 }
-
 .mod_nl_list ul {
-  	margin: 0; padding: 0;
-	list-style: none;
+    margin:0;
+    padding:0;
+    list-style: none;
 }
 .mod_nl_list li {
-  margin: 15px 0 0; padding: 0 10px  15px;
-
-  overflow: hidden;
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 10px 15px;
 }
-
 .mod_nl_list a,
 .mod_nl_list a:visited,
 .mod_nl_list a:hover,
 .mod_nl_list a:focus {
-  padding: 3px 0 0;
-
-  float: left;
-  text-decoration: none;
+    float:left;
+    padding:3px 0 0;
+    text-decoration:none;
 }
-
 .mod_nl_list a:hover,
-.mod_nl_list a:focus {color: #e37a25;}
+.mod_nl_list a:focus {
+    color: #E37A25;
+}

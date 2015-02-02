@@ -1,145 +1,107 @@
-/* Stylesheet file for contao music academy 2
-.............................................
-authors
-@author................: Joe Ray Gregory joe@may17.de
-@author................: Felix Pfeiffer
-@author................: Sascha Müller
-
-Style Hints
-@colors
-orange:
-	Example: Used for headlines
-	Hex: ed7404
-	rgb:237,116,4
-darkgrey:
-	Example: Used for base text
-	Hex: 60584d
-	rgb: 95, 88, 82
-............................................. */
-
-figure {
-    margin: 0;
-    padding: 0;
+html {
+    -webkit-font-smoothing: antialiased;
 }
 
+/* Native elements */
+body {
+    font:62.5% 'Open Sans',Verdana,Arial,Helvetica,sans-serif;
+    color: #60584D;
+    background-color: #BEB1A9;
+}
+
+/* FP: Table on page "content elements" */
+.content-element-list td {
+    vertical-align:top;
+}
+.content-element-list td.col_0,
+.content-element-list th.head_0 {
+    width:25%;
+}
+.content-element-list td.col_1,
+.content-element-list th.head_1 {
+    width:20%;
+}
+figure {
+    margin:0;
+    padding:0;
+}
 fieldset {
     border: none;
 }
-
 a {
-    color: #60584d;
+    color: #60584D;
 }
-
 .back,
 .error {
-
-	margin-left: 10px;
-	margin-right: 10px;
-
+    margin-right:10px;
+    margin-left:10px;
 }
-
 h1 a,
 h2 a,
 h3 a,
-h4 a{
-    text-decoration: none;
+h4 a {
+    text-decoration:none;
 }
-
 #container a:hover {
-    color: #e37a25;
+    color: #E37A25;
 }
-
 #wrapper {
-    font-size: 1.4em;
-    line-height: 1.4;
+    font-size:1.4em;
+    line-height:1.4;
 }
-
 h1 {
-    font-size: 2.571em; /* 36px */
+    font-size:2.571em;
 }
-
 h3 {
-    font-size: 1.286em; /* 18px */
     text-transform: uppercase;
-    color: #e37a25;
+    color: #E37A25;
 }
-
 h2,
 #container legend {
-    color: #e37a25;
-    font-size: 1.7em;
-    border-bottom: 2px solid #e37a25;
-    padding-bottom: 5px;
+    padding-bottom:5px;
+    border-bottom:2px solid;
+    font-size:1.7em;
+    color: #E37A25;
 }
-
 #container legend {
-    display: block;
-    margin-bottom: 20px;
-    width: 100%;
+    width:100%;
+    display:block;
+    margin-bottom:20px;
 }
-
-/* WTF is this?
-
-dl,
-dt,
-dd,
-ul,
-ol {
-    margin: 0;
-}
-
-dl,
-dd,
-*[class*="ce_"] ul,
-*[class*="ce_"] ol {
-    padding-left: 1.2em;
-}
-
-[class*="ce_"] ul,
-[class*="ce_"] ol {
-    margin-left: 1.2em;
-}*/
-
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+    -webkit-appearance: textfield;
     -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
-
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
-
 /* General Helpers */
-.clearfix:after, #wrapper:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+.clearfix:after,
+#wrapper:after {
+    height:0;
+    clear:both;
+    display:block;
+    line-height:0;
+    content: &quot;.&quot;;
+    visibility: hidden;
 }
- 
 .clearfix {
-	display: inline-block;
+    display:inline-block;
 }
- 
 html[xmlns] .clearfix {
-	display: block;
+    display:block;
 }
- 
 * html .clearfix {
-	height: 1%;
+    height:1%;
 }
-
 .clr {
-	clear: both;
+    clear:both;
 }
-
 .showat480,
-.showat768{
-    display: none;
+.showat768 {
+    display:none;
 }

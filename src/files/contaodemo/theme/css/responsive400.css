@@ -1,16 +1,13 @@
-	/*----- burger mobile nav ------- */
+(max-width:400px) {
 
-    #jump-to-nav {
-    
-    	padding-right: 0;
-    
-    }
-    
-    /*----- slider ------- */
+/* ----- burger mobile nav ------- */
+#jump-to-nav {
+    padding-right:0;
+}
+/*----- slider ------- */
     
     .slidebox1 h1 {
-	
-		font-size: 2em;
-		line-height: 1em;
-		
-	}
+    font-size:2em;
+    line-height:1em;
+}
+}

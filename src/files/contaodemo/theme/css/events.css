@@ -1,90 +1,70 @@
-/* events.css - styles for events elements
-.............................................
-	Authors
-		@author................: Sascha Müller
-		@author................: Joe Ray Gregory joe@may17.de
-
-	Style Map
-		1) News Listing
-		2) Calendar
-		3) Minicalendar
-............................................. */
-
-/* 1) Event Listing
-___________________________________________________________*/
-
 .mod_eventlist.example .event {
-  	margin: 15px 0 0; padding: 0 0 15px;
-	border-bottom: 1px solid #60584D;
-  	overflow: hidden;
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 0 15px;
+    border-bottom:1px solid;
+    border-color: #D4CBC5;
 }
-
-#main .mod_eventlist.example .last {border-bottom: 1px solid transparent;}
-
-.mod_eventlist.example .layout_upcoming a {float: left; display: block; width: 99%;}
-.mod_eventlist.example .layout_upcoming.example .date { display: block;}
-.mod_eventlist.example .layout_upcoming.example .time {display: none;}
-
-/* 2) Calendar
-___________________________________________________________*/
-
-.mod_calendar .active {
-	background-color: #e37a25;
-	color: #fff;
-	font-weight: bold;
+.mod_calendar .days {
+    background: #f4f2f0;
 }
-
+#main .mod_eventlist.example .last {
+    border-bottom: 1px solid transparent;
+}
+.mod_eventlist.example .layout_upcoming a {
+    width:99%;
+    float:left;
+    display:block;
+}
+.mod_eventlist.example .layout_upcoming.example .date {
+    display:block;
+}
+.mod_eventlist.example .layout_upcoming.example .time {
+    display:none;
+}
+.mod_calendar .active.days {
+    font-weight:bold;
+    background-color: #E37A25;
+     color: #ffffff;
+}
 .mod_calendar .active a {
-	color: #fff;
+    color: #ffffff;
 }
-
 .mod_calendar .active a:hover,
 #main .mod_calendar .active a:hover {
-	color: #5d2f00;
+    color: #5d2f00;
 }
-
 .mod_calendar .header {
-	font-size: 1.8em;
-	text-align: center;
+    text-align:center;
+    font-size:1.8em;
 }
-
 .mod_calendar th {
-	text-align: center;
+    text-align:center;
 }
-
 .mod_calendar .empty {
-	background: #E1DAD6;
+    background: #E1DAD6;
 }
-
 .mod_calendar .label > span {
-	display: none;
+    display:none;
 }
-
 .mod_calendar thead .label {
-	width: 14.28%;
+    width:14.28%;
 }
-
-/* 3) Minicalendar
-___________________________________________________________*/
 #left .mod_calendar {
-	margin: 0;
-	width: 100%;
-	font-size: 0.9em;
+    width:100%;
+    margin:0;
+    font-size:.9em;
 }
-
 .box-2 .last td {
-	border-bottom: none;
-	text-align: center;
+    text-align:center;
+    border-bottom: none;
 }
-
 .box-2 td {
-	text-align: center;
+    text-align:center;
 }
-
 .mod_calendar .head a {
-	text-decoration: none;
+    text-decoration:none;
 }
-
 .mod_calendar .head a:hover {
-	color: #e37a25;
+    color: #E37A25;
 }

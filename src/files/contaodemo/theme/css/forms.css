@@ -1,333 +1,268 @@
-/* forms.css - styles for form elements
-.............................................
-	Authors
-		@author................: Carolina Köhn www.kikmedia.de
-        @author................: responsive and mobile by Stefan Melz slashworks stefan@slash-works.de
-		@author................: modifyed for ma2 by Joe Ray Gregory joe@may17.de
-
-	Style Map
-		1) Generel
-		2) Login
-        3) small displays and tablets
-		4) portrait tablets and phone
-
-............................................. */
-
-/* 1) Generel
-___________________________________________________________*/
-
-.checkbox_container label, .radio_container label{
-  font-weight: normal;
+label[for] {
+    cursor: pointer;
 }
-
-.formbody label { 
-  display: block; margin-top: 1.5em; padding-bottom: 3px;
+fieldset {
+    margin:0;
+    padding:0 0 1.5em;
 }
-
-.formbody .checkbox_container label, .formbody .radio_container label {
-  display: inline;
+.checkbox_container label,
+.radio_container label {
+    font-weight:normal;
 }
-/*
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea,
-input[type="search"]*/
+.formbody label {
+    display:block;
+    margin-top:1.5em;
+    padding-bottom:3px;
+}
+.formbody .checkbox_container label,
+.formbody .radio_container label {
+    display:inline;
+}
 form .text,
 form .textarea,
 form .captcha {
-	padding: 6px;
-	background-color: #fff;
-	border: 1px solid #d4cbc5;
+    padding:6px;
+    border:1px solid;
+    border-color: #D4CBC5;
+    background-color: #F4F2F0;
 }
-/*
-#container input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea,
-input[type="search"]*/
 form .text,
 form .textarea,
 form .captcha {
-	width: 60%;
+    width:60%;
 }
-
-.mod_subscribe input[type="text"] { 
-	width: 210px;
+.mod_subscribe input[type="text"] {
+    width:210px;
 }
-
-textarea { 
-	width: 90%; 
-	height: 140px;
+textarea {
+    width:90%;
+    height:140px;
 }
-/*
-input[type="text"]:focus, 
-input[type="email"]:focus,
-input[type="password"]:focus,
-textarea:focus*/
-
 form .text:focus,
 form .textarea:focus,
 form .captcha:focus {
-	background: #EDEDED; 
-	border: 1px solid #CFCFCF;
+    background: #fdfdfd;
 }
-
-select { 
-	width: 63%; 
-	padding: 4px 3px 4px 1px; 
-	background-color: #fff; 
-	border: 1px solid #CCCCCC;
+form .text:hover,
+form .textarea:hover,
+form .captcha:hover {
+    background: #fdfdfd;
+    border-color: #E37A25;
 }
-
-.checkbox_container span, 
-.radio_container span { 
-	display: block; 
+form div.mandatory > input:focus {
+    border:1px solid;
+    border-color: #c20000;
+    color: #c20000;
 }
-
-.checkbox_container + br, 
+select {
+    width:63%;
+    padding:4px 3px 4px 1px;
+    border:1px solid;
+    border-color: #D4CBC5;
+    background-color: #F4F2F0;
+}
+.checkbox_container span,
+.radio_container span {
+    display:block;
+}
+.checkbox_container + br,
 .radio_container + br {
-	display: none;
+    display:none;
 }
-
 .checkbox_container label,
 .checkbox_container input,
 .radio_container label,
-.radio_container input{ 
-	vertical-align: middle; 
+.radio_container input {
+    vertical-align:middle;
 }
-
-.formbody input[type="checkbox"], 
+.formbody input[type="checkbox"],
 x:-moz-any-link {
-	top: 0px; 
-	position: relative; 
+    top:0;
+    position:relative;
 }
-
-.checkbox_container { 
-	margin-top: 10px; 
+.checkbox_container {
+    margin-top:10px;
 }
-
-input[type="radio"], 
-x:-moz-any-link {
-	top: 0px; 
-	position: relative; 
+div.submit_container {
+    margin-top:1em;
+    margin-bottom:1em;
 }
-
-.submit_container { 
-	margin-top: 1em; 
-	margin-bottom: 1em; 
+form table td {
+    padding-top:3px;
+    padding-bottom:3px;
 }
-
-form table td { 
-	padding-top: 3px; 
-	padding-bottom: 3px; 
+form table td:first-child {
+    width:45%;
+    padding-bottom:0;
+    text-align:left;
 }
-
-form table td:first-child { 
-	width: 45%; 
-	padding-bottom: 0px; 
-	text-align: left; 
+.tableform table {
+    width:92%;
+    margin-top:1.5em;
+    margin-bottom:0;
 }
-
-.tableform table { 
-	width: 92%; 
-	margin-top: 1.5em; 
-	margin-bottom: 0px; 
+#container .tableform .formbody,
+#container .formbody .formbody {
+    width:100%;
+    overflow:hidden;
 }
-
-#container .tableform .formbody, 
-#container .formbody .formbody { 
-	width: 100%; 
-	overflow: hidden;
+.formbody .formbody {
+    padding-top:0;
 }
-
-.formbody .formbody { 
-	padding-top: 0px; 
+legend {
+    padding-right:6px;
+    color:#00ADF1;
 }
-
-legend { 
-	padding-right: 6px; 
-	color: #00ADF1; 
+fieldset table {
+    width:92%;
+    margin-top: 1em ! important;
+    margin-bottom: 1em ! important;
 }
-
-fieldset table { 
-	width: 92%; 
-	margin-top: 1em ! important; 
-	margin-bottom: 1em ! important; 
+fieldset table td:first-child {
+    width:140px;
+    text-align:left;
 }
-
-fieldset table td:first-child { 
-	width: 140px; 
-	text-align: left; 
+span.mandatory {
+    display:inline;
+    padding-left:2px;
+    font-weight:bold;
+    color: #c20000;
 }
-
-span.mandatory { 
-	display: inline; 
-	padding-left: 2px; 
-	font-weight: bold; 
-	color: #FF0000;
+p.confirm {
+    color:#00ADF1;
 }
-
-p.confirm { 
-	color: #00ADF1; 
+p.error {
+    margin-bottom:6px;
+    font-weight:bold;
+    color: #c20000;
 }
-
-p.error { 
-	margin-bottom: 6px; 
-	font-weight: bold; 
-	color: #FF0000; 
-}
-
 form input.error,
-textarea.error
-/*
-input.error[type="text"],
-input.error[type="email"],
-input.error[type="password"],
-textarea.error */{
-	background-color: #FFFFDD; 
-	border-color: #FF0000; 
+textarea.error {
+    border-color: #c20000;
 }
-
-input.captcha { 
-	width: 48px; 
+input.captcha {
+    width:48px;
 }
-
-span.captcha_text { 
-	font-weight: normal;
+span.captcha_text {
+    font-weight:normal;
 }
-
-:first-child + html span.captcha_text { 
-	top: -3px; 
-	position: relative; 
+:first-child + html span.captcha_text {
+    top:-3px;
+    position:relative;
 }
-
 #container .submit {
-    border: 1px solid #de601a;
-    background: #ff9b50; /* Old browsers */
-    background: -moz-linear-gradient(top,  #ff9b50 0%, #fd7d0d 3%, #ee7404 96%, #de601a 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9b50), color-stop(3%,#fd7d0d), color-stop(96%,#ee7404), color-stop(100%,#de601a)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #ff9b50 0%,#fd7d0d 3%,#ee7404 96%,#de601a 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9b50', endColorstr='#de601a',GradientType=0 ); /* IE6-9 */
-	color: #fff;
-	font-weight: bold;
-	padding: 5px;
-	display: inline-block;
-	cursor: pointer;
+    display:inline-block;
+    padding:8px;
+    border:1px solid;
+    font-weight:bold;
+    border-color: #DE601A;
+        color: #ffffff;
+        /* Old browsers */
+        background: #E37A25;
+        /* FF3.6+ */
+        background: -moz-linear-gradient(top,  #FF9B50 0%, #E37A25 3%, #E37A25 96%, #DE601A 100%);
+        /* Chrome,Safari4+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FF9B50), color-stop(3%,#E37A25), color-stop(96%,#E37A25), color-stop(100%,#DE601A));
+        /* Chrome10+,Safari5.1+ */
+        background: -webkit-linear-gradient(top,  #FF9B50 0%,#E37A25 3%,#E37A25 96%,#DE601A 100%);
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top,  #FF9B50 0%,#E37A25 3%,#E37A25 96%,#DE601A 100%);
+        /* IE10+ */
+        background: -ms-linear-gradient(top,  #FF9B50 0%,#E37A25 3%,#E37A25 96%,#DE601A 100%);
+        /* W3C */
+        background: linear-gradient(to bottom,  #FF9B50 0%,#E37A25 3%,#E37A25 96%,#DE601A 100%);
+        /* IE6-9 */;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF9B50', endColorstr='#E37A25',GradientType=0 );
+    cursor: pointer;
 }
-
-.submit:hover { 
-	display: inline-block; 
-	color: #7A7A7A; 
-	cursor: pointer; 
+#container .submit:hover {
+    display:inline-block;
+    border-color: #DE601A;
+    color: #ffffff;
+    /* Old browsers */
+    background: #DE601A;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #DE601A 0%, #E37A25 10%, #E37A25 96%, #FF9B50 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DE601A), color-stop(10%,#E37A25), color-stop(96%,#E37A25), color-stop(100%,#FF9B50));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #DE601A 0%,#E37A25 10%,#E37A25 96%,#FF9B50 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #DE601A 0%,#E37A25 10%,#E37A25 96%,#FF9B50 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #DE601A 0%,#E37A25 10%,#E37A25 96%,#FF9B50 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #DE601A 0%,#E37A25 10%,#E37A25 96%,#FF9B50 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E37A25', endColorstr='#E37A25',GradientType=0 );
+    cursor: pointer;
 }
-
 select {
-	width: 63%; 
-	padding: 4px 3px 4px 1px; 
-	border: 1px solid #CCCCCC; 
+    width:63%;
+    padding:4px 3px 4px 1px;
+    border:1px solid;
+    border-color: #D4CBC5;
 }
-
-.checkbox_container span, 
-.radio_container span { 
-	display: block; 
+.checkbox_container span,
+.radio_container span {
+    display:block;
 }
-
-.checkbox_container + br, 
-.radio_container + br { 
-	display: none; 
+.checkbox_container + br,
+.radio_container + br {
+    display:none;
 }
-
-.checkbox_container label, 
-.checkbox_container input { 
-	vertical-align: middle; 
+.checkbox_container label,
+.checkbox_container input {
+    vertical-align:middle;
 }
-
-.formbody input[type="checkbox"], 
-x:-moz-any-link { 
-	top: -2px; 
-	position: relative; 
+#ctrl_notify {
+    padding:0;
 }
-
-#ctrl_notify {padding: 0;}
-
-.checkbox_container { 
-	margin-top: 10px;
-
+.checkbox_container {
+    margin-top:10px;
 }
-
-input[type="radio"], 
-x:-moz-any-link { 
-	top: 2px; 
-	position: relative; 
+.ce_form div.submit_container,
+.ce_comments div.submit_container,
+.mod_lostPassword div.submit_container,
+.mod_personalData div.submit_container {
+    padding-top:20px;
+    border-top:1px dotted;
+    border-color: #D4CBC5;
 }
-.submit_container { 
-	margin-top: 1em; 
-	margin-bottom: 1em; 
-}
-
-
-#main .formbody div.submit_container {
-	border-top: 1px dotted #D0C9C2;
-	padding-top: 20px;
-	margin-top: 10px;
-}
-
-/* 2) Login Box
-___________________________________________________________*/
-
 #container .mod_lostPassword,
 #container .mod_login {
-	position: relative;
-	padding-bottom: 60px;
+    position:relative;
 }
-
 #container .mod_lostPassword .text,
 #container .mod_login .text {
-	width: 74.4%;
-	display: inline-block;
+    width:74.4%;
+    display:inline-block;
 }
-
 label,
 #container .mod_login label {
-	width: 20%;
-	display: inline-block;
+    width:20%;
+    display:inline-block;
 }
-
 #container .mod_lostPassword  br,
 #container .mod_login br {
-	display: none;
+    display:none;
 }
-
-#container .mod_lostPassword .checkbox_container,
-#container .mod_login .checkbox_container {
-	position: absolute;
-	bottom: 14px;
-	right: 18.5%;
+.mod_login .checkbox_container {
+    float:right;
+    padding-top:8px;
 }
-
-#container .mod_lostPassword .checkbox_container label,
 #container .mod_login .checkbox_container label {
-	width: 120px;
-	margin-top: 7px;
+    width:120px;
+    margin-top:3px;
 }
-
-#container .mod_lostPassword .submit_container,
-#container .mod_login .submit_container {
-	position: absolute;
-	bottom: 0;
-	right: 3em;
-	border: none;
+.mod_login .submit_container {
+    margin-left:20.3%;
+    border: none;
 }
-
-#container .grid6 .mod_login .submit_container {
-	right: 1.8em;
-}
-
 #container .mod_login .checkbox {
-	margin-top: 7px;
 }
-
+.form-search div.submit_container {
+    margin: 0;
+    padding: 0;
+    margin-top: -1px;
+}

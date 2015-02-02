@@ -1,127 +1,89 @@
-/* header.css - styles for header elements
-.............................................
-	Authors
-		@author................: Joe Ray Gregory joe@may17.de
-		@author................: Felix Pfeiffer
-		@author................: Sascha Müller
-
-	Style Map
-		1) Generel
-		2) Search form
-		3) Header image
-............................................. */
-
-/* 1) Generel
-___________________________________________________________*/
 
 /* add some space */
 #header .mod_article {
-	clear: both;
-	margin-top: 20px;
+    clear:both;
+    margin-top:20px;
 }
 
 /* position the logo */
 .logo {
-    clear: both;
-    float: left;
-    margin-left: 10px;
+    float:left;
+    clear:both;
+    margin-left:10px;
 }
 
 /* grey bar on the top */
 .header-top-bar {
-    border-top: 1px solid #e5dfdc;
+    width:100%;
+    margin-bottom:20px;
+    margin-left:0;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top:1px solid;
+    font-size:.857em;
+    /* 12px */
+        overflow: auto;
+    border-color: #D4CBC5;
     background-color: #eae5e2;
-	font-size: 0.857em; /* 12px */
-    overflow: auto;	
-	padding-top: 5px;
-	padding-bottom: 5px;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-left: 0;
 }
 
 /* inner part of the top bar */
 .header-top-bar .inner {
-	padding: 5px 10px;
+    padding:5px 10px;
 }
 
 /* rss feed button */
 .rss {
-    float: right;
-    margin-top: 1px;
-    margin-left: 15px;
+    float:right;
+    margin-top:1px;
+    margin-left:15px;
 }
 
 /* simple line after the navigation and logo */
 .inside > .header-line {
-	clear: both;
-	border-bottom: 1px dotted #d0c9c2;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-    padding-top: 10px;
+    clear:both;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:10px;
+    border-bottom:1px dotted;
+    border-color: #D4CBC5;
 }
-
 .start .inside > .header-line {
+    padding-top:0;
     border: none;
-    padding-top: 0;
 }
-
-/* 2) Search form - form.css overrides
-___________________________________________________________*/
-
 .form-search {
-    float: right;
-	margin-top: -2px;
-    width: 200px;
+    width:200px;
+    float:right;
+    margin-top:1px;
 }
-/*
-    reset label margin
-*/
-
 .form-search .formbody label {
-    margin-top: 0;
+    margin-top:0;
 }
-
-
 .form-search .text,
 .form-search .submit_container {
-    float: left;
+    float:left;
 }
-
 .form-search .formbody {
-
-    width: 100%;
-
+    width:100%;
 }
-
 .form-search .formbody .text {
-	/*padding-bottom: 1px;*/
-    padding: 4px 6px;
-	margin: 0;
-	line-height: 1.2em;
-    width: 80%;
+    width:80%;
+    margin:0;
+    line-height:1.2em;
+    /*padding-bottom: 1px;
+    */
+        padding: 4px 6px;
 }
-
 .form-search .submit:focus {
     outline: none;
 }
-
 .form-search .formbody {
-	float: left;
-	position: relative;
+    position:relative;
+    float:left;
 }
-
-.form-search .submit_container {
-    margin: 0 0 0 -4px;
-    position: absolute;
-    right: -0px;
-    top: 0;
-}
-
-/* 3) Header image at the frontpage
-___________________________________________________________*/
 #header-image-wrapper {
-    margin-top: -5px;
-    overflow: hidden;
+    overflow:hidden;
+    margin-top:-5px;
 }

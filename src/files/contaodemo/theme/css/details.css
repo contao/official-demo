@@ -1,40 +1,27 @@
-/* details.css - styles for vent, faq and news detail pages
-.............................................
-	Authors
-		@author................: Joe Ray Gregory joe@may17.de
-		@author................: Sascha Müller
-
-	Style Map
-		1) Accordion
-		2) Table
-		3) Image gallery
-		4) Comments
-		5) Social bar
-............................................. */
 
 /* Infos like author etc. */
 .layout_full .info {
-	font-style: italic;
-	padding-top: 0;
-	margin-top: 0;
-	border-bottom: 1px dotted #d0c9c2;
-	padding-bottom: 5px;
+    margin-top:0;
+    padding-top:0;
+    padding-bottom:5px;
+    border-bottom:1px dotted;
+    font-style:italic;
+    border-color: #D4CBC5;
 }
 
 /* Reset headline */
 .layout_full h1 {
-	margin-bottom: 3px;
+    margin-bottom:3px;
 }
 
 /* Repeating hint for events */
 .recurring {
-	border: 1px solid #DE601A;
-	padding: 5px;
-	background-color: #FF9B50;
-	color: #fff;
+    padding:5px;
+    background-color:#FF9B50;
+    border:1px solid #DE601A;
+    color:#fff;
 }
-
 .layout_full h2 {
-	border-bottom: none;
-	margin-bottom: 0;
+    margin-bottom:0;
+    border-bottom: none;
 }

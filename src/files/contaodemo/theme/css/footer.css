@@ -1,75 +1,45 @@
-/* footer.css - all styles for special footer elements
-.............................................
-	Authors
-		@author................: Joe Ray Gregory joe@may17.de
-		@author................: Felix Pfeiffer
-		@author................: Sascha Müller
-............................................. */
-
 #footer .inside {
-	padding: 0 0 10px;
-	float: left;
-	background-color: #473f3a;
-  	color: #9E9084;
+    float:left;
+    padding:0 0 10px;
+    background-color: #473F3A;
+    color: #9E9084;
 }
-
 #footer .inside > [class*="grid"] {
-	margin-left: 10px;
-	margin-right: 10px;
+    margin-right:10px;
+    margin-left:10px;
 }
-
-.mod_eventlist.example .event {
-  	margin: 15px 0 0; padding: 0 0 15px;
-	border-bottom: 1px solid #60584D;
-  	overflow: hidden;
-}
-
-
-
 #footer a,
 #footer a:visited,
 #footer a:hover,
 #footer a:focus,
 #footer a:active {
-	color: #FFF;
-	text-decoration: none;
+    text-decoration:none;
+    color: #ffffff
 }
-
 #footer a:hover,
 #footer a:focus,
 #footer a:active {
-	text-decoration: underline;
+    text-decoration:underline;
 }
-
 .footer-list > div {
-  	margin: 15px 0 0; padding: 0 0 15px;
-	border-bottom: 1px solid #60584D;
-  	overflow: hidden;
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 0 15px;
+    border-bottom:1px solid;
+    border-color: #60584D;
 }
-
 .footer-list > div.last {
-
-	border-bottom: 1px solid #60584D;
-
+    border-bottom:1px solid;
+    border-color: #60584D;
 }
-
 .footer-list a {
-
-	float: left;
-	display: block;
-	width: 99%;
-
+    width:99%;
+    float:left;
+    display:block;
 }
-
 .footer-list .date {
-
-	display: block;
-
+    display:block;
 }
-
 .footer_list .time {
-
-	display: none;
-
+    display:none;
 }
-
