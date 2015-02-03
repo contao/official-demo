@@ -3,8 +3,12 @@
     "type": "contao-module",
     "description": "Contao Official Demo",
     "license": "CC-BY-SA-4.0",
-    "require": {
+    "require":
+        "contao/core": "3.3.*",
         "contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "replace": {
+        "contao-legacy/official_demo": "self.version"
     },
     "extra": {
         "contao": {
