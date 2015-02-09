@@ -1,8 +1,0 @@
-<?php
-
-$this->extend('ce_player');
-
-if ($this->isVideo)
-{
-	$this->size .= ' style="width: 100%; height: 100%;"';
-}
