@@ -1,0 +1,46 @@
+.mod_search .even,
+.mod_search .odd {
+    margin-bottom:1px;
+    border-bottom:1px solid;
+    border-color: $search-result-border-color;
+}
+.mod_search > .last {
+    border-bottom: none;
+}
+.mod_search h3 a,
+.mod_search h3 a:visited,
+.mod_search h3 a:hover,
+.mod_search h3 a:focus,
+.mod_search h3 a:active {
+    text-decoration:none;
+    color: $search-h3-link-color;
+}
+.mod_search h3 a:hover,
+.mod_search h3 a:focus,
+.mod_search h3 a:active {
+    text-decoration:underline;
+}
+
+.mod_search .relevance {
+    padding-left:10px;
+    font-size:$search-relevance-font-size ;
+    color:$search-relevance-color;
+}
+.mod_search .formbody {
+    padding:10px;
+    border:1px solid;
+    border-color: $search-formbody-border-color;
+    background-color: $search-formbody-bg-color;
+}
+.mod_search .radio_container span {
+    float:left;
+    margin-right:10px;
+}
+.mod_search fieldset {
+    margin:5px 0 0;
+    padding:0;
+}
+.mod_search .highlight {
+    font-weight:bold;
+    color: $search-highlight-color;
+}

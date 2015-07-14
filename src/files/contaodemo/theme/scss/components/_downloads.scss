@@ -1,0 +1,19 @@
+.ce_downloads ul {
+    margin:0;
+    padding:0;
+    border-top:1px solid;
+    list-style-type:none;
+    border-color: $container-downloads-border-color;
+}
+.ce_downloads li {
+    margin-top:2px;
+    padding:1%;
+    border-bottom:1px solid;
+    border-color: $container-downloads-border-color;
+    background-color: $container-downloads-li-bg-color;
+}
+.ce_download img,
+.ce_downloads img {
+    margin-right:1%; /* why in % ? :D */
+    vertical-align:middle;
+}

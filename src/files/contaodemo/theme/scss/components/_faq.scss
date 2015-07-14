@@ -1,0 +1,11 @@
+.mod_faqpage section {
+    padding-bottom:20px;
+}
+.mod_faqpage p.info {
+    margin:10px 0 0;
+    padding:0 0 5px;
+    border-bottom:1px solid;
+    font-size:$faq-info-font-size;
+    font-style:italic;
+    border-color: $faq-info-border-color;
+}

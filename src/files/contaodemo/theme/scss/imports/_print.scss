@@ -1,0 +1,70 @@
+// 3. Base stuff
+@import
+ 'base/base',
+  'base/fonts',
+  'base/forms',
+  'base/helpers',
+  'base/table',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/navigation',
+  'layout/layout';
+
+// 5. Components
+@import
+  'components/events',
+  'components/faq',
+  'components/listing',
+  'components/news',
+  'components/newsletter',
+  'components/search',
+  'components/slider',
+  'components/accordion',
+  'components/downloads',
+  'components/toplink',
+  'components/details';
+
+
+// 8. Mediaqueries - optional: add details for different media
+@import
+  'media/responsive400',
+  'media/responsive479',
+  'media/responsive767',
+  'media/responsive768-979'; 
+  
+@media print {
+    body {
+        margin: 0; padding: 0;
+      	background: $white !important; 
+        font-size: 14px;
+      }
+      
+      .grid12,
+      #wrapper {width: 100.0%;}
+      
+      nav,
+      #header-top-bar, #nav-main,
+      .mod_breadcrumb, #social,
+      .mod_newsmenu, .mod_login,
+      #left, .mod_booknav, .pagination {display: none;}
+      
+      #main .inside {margin: 0;}
+      
+      #container {padding: 0;}
+      
+      .accordion
+      {
+          height: auto !important;
+          visibility: visible !important;
+          opacity: 1.0 !important;
+      }
+      
+      #footer .mod_newslist,
+      #footer .mod_eventlist,
+      .mod_subscribe,
+      .mod_unsubscribe{display: none;}
+}

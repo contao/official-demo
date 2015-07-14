@@ -1,0 +1,45 @@
+#footer .inside {
+    float:left;
+    padding:0 0 10px;
+    background-color: $footer-bg-color;
+    color: $footer-color;
+}
+#footer .inside > [class*="grid"] {
+    margin-right:10px;
+    margin-left:10px;
+}
+#footer a,
+#footer a:visited,
+#footer a:hover,
+#footer a:focus,
+#footer a:active {
+    text-decoration:none;
+    color: $footer-link-color;
+}
+#footer a:hover,
+#footer a:focus,
+#footer a:active {
+    text-decoration:underline;
+}
+.footer-list > div {
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 0 15px;
+    border-bottom:1px solid;
+    border-color: $footer-list-border-color;
+}
+.footer-list > div.last {
+    border-bottom:1px solid;
+    border-color: $footer-list-border-color;
+}
+.footer-list a {
+    width:99%;
+    float:left;
+    display:block;
+}
+.footer-list .date {
+    display:block;
+}
+.footer_list .time {
+    display:none;
+}

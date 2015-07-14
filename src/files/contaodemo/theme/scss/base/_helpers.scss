@@ -1,0 +1,59 @@
+
+/* FP: Table on page "content elements" */
+.content-element-list td {
+    vertical-align:top;
+}
+.content-element-list td.col_0,
+.content-element-list th.head_0 {
+    width:25%;
+}
+.content-element-list td.col_1,
+.content-element-list th.head_1 {
+    width:20%;
+}
+
+#container a:hover {
+    color: $link-hover-color;
+}
+
+h2,
+#container legend {
+    padding-bottom:5px;
+    border-bottom:2px solid;
+    font-size:rem-calc(17);
+    
+}
+#container legend {
+    width:100%;
+    display:block;
+    margin-bottom:20px;
+    color: $legend-color;
+}
+
+
+/* General Helpers */
+.clearfix:after,
+#wrapper:after {
+    height:0;
+    clear:both;
+    display:block;
+    line-height:0;
+    content: ".";
+    visibility: hidden;
+}
+.clearfix {
+    display:inline-block;
+}
+html[xmlns] .clearfix {
+    display:block;
+}
+* html .clearfix {
+    height:1%;
+}
+.clr {
+    clear:both;
+}
+.showat480,
+.showat768 {
+    display:none;
+}

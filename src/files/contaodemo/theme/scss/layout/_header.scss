@@ -1,0 +1,88 @@
+
+/* add some space */
+#header .mod_article {
+    clear:both;
+    margin-top:20px;
+}
+
+/* position the logo */
+.logo {
+    float:left;
+    clear:both;
+    margin-left:10px;
+}
+
+/* grey bar on the top */
+.header-top-bar {
+    width:100%;
+    margin-bottom:20px;
+    margin-left:0;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top:1px solid;
+    font-size:$header-top-bar-font-size ;
+    overflow: auto;
+    border-color: $header-top-bar-border-color;
+    background-color: $header-top-bar-bg-color;
+}
+
+/* inner part of the top bar */
+.header-top-bar .inner {
+    padding:5px 10px;
+}
+
+/* rss feed button */
+.rss {
+    float:right;
+    margin-top:1px;
+    margin-left:15px;
+}
+
+/* simple line after the navigation and logo */
+.inside > .header-line {
+    clear:both;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:10px;
+    border-bottom:1px dotted;
+    border-color: $header-line-border-color;
+}
+.start .inside > .header-line {
+    padding-top:0;
+    border: none;
+}
+.form-search {
+    width:200px;
+    float:right;
+    margin-top:1px;
+}
+.form-search .formbody label {
+    margin-top:0;
+}
+.form-search .text,
+.form-search .submit_container {
+    float:left;
+}
+.form-search .formbody {
+    width:100%;
+}
+.form-search .formbody .text {
+    width:80%;
+    margin:0;
+    font-size:$header-top-bar-font-size ;
+    line-height:rem-calc(25);
+    height:rem-calc(25);
+    padding: 4px 6px;
+}
+.form-search .submit:focus {
+    outline: none;
+}
+.form-search .formbody {
+    position:relative;
+    float:left;
+}
+#header-image-wrapper {
+    overflow:hidden;
+    margin-top:-5px;
+}

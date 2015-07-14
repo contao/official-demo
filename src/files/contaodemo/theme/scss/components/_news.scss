@@ -1,0 +1,84 @@
+.mod_newslist {
+    padding:0 0 10px;
+    border-bottom: none;
+}
+.mod_newslist .last {
+    border-bottom: 1px solid transparent;
+}
+.mod_newslist p.info {
+    font-size: $newslist-info-font-size ;
+    	margin-bottom: 0;
+}
+.mod_article .mod_newslist *[class*="layout_"]>* {
+    margin-right:0;
+    margin-left:0;
+}
+.mod_article .layout_full > * {
+    margin-right:10px;
+    margin-left:10px;
+}
+.layout_short h2 {
+    margin-top:0;
+}
+.mod_newsarchive p.info {
+    margin-bottom:0;
+    font-size: $newsarchive-info-font-size ;
+}
+.mod_newsarchive h2 {
+    margin-top:0;
+}
+.mod_newsarchive h1 {
+    padding:0 10px;
+}
+.mod_newsmenu {
+    margin:20px 0 0;
+    font-weight:bold;
+    border-left: none;
+}
+.mod_newsmenu ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.mod_newsmenu ul > .year {
+    margin-bottom:20px;
+    padding-left:0;
+    font-size: $newsmenu-year-font-size ;
+    border: 1px solid $newsmenu-year-border-color;
+    color: $newsmenu-year-color;
+    background-color: $newsmenu-year-bg-color;
+}
+.mod_newsmenu .year ul {
+    margin-top:0;
+}
+.mod_newsmenu a,
+.mod_newsmenu span.active {
+    display:block;
+    padding:10px;
+    border-top:1px solid;
+    font-size:$newsmenu-link-font-size;
+    text-decoration:none;
+    background: $newsmenu-link-bg-image no-repeat 95% 50%;
+    border-bottom: 1px solid $newsmenu-link-border-bottom-color;
+    color: $newsmenu-link-color;
+    border-top-color: $newsmenu-link-border-top-color;
+}
+.mod_newsmenu a:hover{
+    background-image: $newsmenu-link-hover-bg-image;
+    color: $newsmenu-link-hover-color;
+}
+.mod_newsmenu span.active {
+    background-image: $newsmenu-link-active-bg-image;
+    color: $newsmenu-link-active-color;
+    background-color: $newsmenu-link-active-bg-color;
+    border-top-color: $newsmenu-link-active-border-top-color;
+}
+.mod_newsmenu .last a,
+.mod_newsmenu .last span.active,
+.mod_newsmenu span.trail {
+    border-bottom: none;
+}
+.mod_article .mod_newsreader {
+    margin-right:10px;
+    margin-left:10px;
+}
