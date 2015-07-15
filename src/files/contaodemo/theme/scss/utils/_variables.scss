@@ -162,7 +162,7 @@ $breadcrumb-link-active-color: $orange ;
 $sitemap-li-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_normal.png") ;
 $sitemap-li-first-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_first.png") ;
 $sitemap-li-last-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_last.png") ;
-$sitemap-link-color: #FBFAF9 ;
+$sitemap-link-color: $light-grey-0;
 //burger menu
 $burger-font-size: rem-calc(18) ;
 $burger-menu-bg-image: url("../../../../files/contaodemo/theme/img/nav_mobile.png") ;
@@ -204,8 +204,8 @@ $newsmenu-year-font-size: rem-calc(16) ;
 $newsmenu-year-border-color: $light-grey-7 ;
 $newsmenu-year-bg-color: $orange ;
 $newsmenu-year-color: $middle-orange-grey ;
-$newsmenu-link-font-size: rem-calc(7) ;
-$newsmenu-link-bg-image: url('../img/icons/icon_arrow-right-grey.png') ; 
+$newsmenu-link-font-size: rem-calc(12) ;
+$newsmenu-link-bg-image: url('../../../../files/contaodemo/theme/img/icons/icon_arrow-right-grey.png') ; 
 $newsmenu-link-border-bottom-color: $light-grey-7 ;
 $newsmenu-link-color: $middle-orange-grey ;
 $newsmenu-link-border-top-color: $white ;
@@ -228,8 +228,8 @@ $newsletter-list-color: $dark-orange-grey ;
 $newsletter-list-headline-color: $orange;
 $newsletter-list-link-hover-color: $orange;
 //faq
-$faq-info-border-color: $light-grey-7 ;
 $faq-info-font-size: rem-calc(12) ;
+$faq-info-border-color: $light-grey-7 ;
 //events
 $eventlist-event-border-color: $light-grey-7 ;
 $calender-left-font-size: rem-calc(9) ;
@@ -259,7 +259,6 @@ $accordion-toggler-hover-color: $orange ;
 $accordion-toggler-active-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-top.png") ;
 $accordion-toggler-active-color: $orange ;
 
-
 //table
 $table-border-color: $light-grey-7 ;
 $table-th-bg-color: $light-grey-3 ;
@@ -276,5 +275,3 @@ $container-imagecontainer-hover-img-border-color: $orange ;
 $container-caption-bg-color: $light-grey-3 ;
 $container-downloads-border-color: $light-grey-7 ;
 $container-downloads-li-bg-color: $light-grey-1 ;
-
-
