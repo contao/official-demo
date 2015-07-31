@@ -1,4 +1,4 @@
-Contao Official Demo
+Contao Official Demo – The better SCSS-Version for advanced users
 ====================
 
 This is an example website for Contao Open Source CMS. It can be installed with
