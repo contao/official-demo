@@ -1,0 +1,58 @@
+.mod_subscribe .checkbox_container,
+.mod_unsubscribe .checkbox_container {
+    margin:10px 0;
+    padding:10px 0;
+    border:1px dotted;
+    border-left: 0;
+    border-right: 0;
+    border-color: $newsletter-form-border-color;
+}
+.mod_subscribe .text,
+.mod_unsubscribe .text {
+    width:40%;
+}
+.mod_subscribe form,
+.mod_unsubscribe form {
+    padding:10px;
+    border:1px solid;
+    border-color: $newsletter-form-border-color;
+    background-color: $newsletter-form-bg-color;
+}
+.mod_nl_list {
+    margin:20px 0 0;
+    border:1px solid;
+    font-weight:bold;
+    color:$newsletter-list-color;
+    border-left: none;
+    border-color: $newsletter-list-border-color;
+    background-color: $newsletter-list-bg-color;
+}
+.mod_nl_list h2 {
+    margin:0;
+    padding:10px;
+    border-bottom:1px solid;
+    color:$newsletter-list-headline-color;
+    border-color: $newsletter-list-border-color;
+}
+.mod_nl_list ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.mod_nl_list li {
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 10px 15px;
+}
+.mod_nl_list a,
+.mod_nl_list a:visited,
+.mod_nl_list a:hover,
+.mod_nl_list a:focus {
+    float:left;
+    padding:3px 0 0;
+    text-decoration:none;
+}
+.mod_nl_list a:hover,
+.mod_nl_list a:focus {
+    color: $newsletter-list-link-hover-color;
+}

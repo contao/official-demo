@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+// 1. Vendors
+@import
+  'vendor/normalize';
+
+// 2. Configuration and helpers
+@import
+  'utils/functions',
+  'utils/variables',
+  'utils/mixins';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/forms',
+  'base/helpers',
+  'base/table',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/navigation',
+  'layout/layout';
+
+// 5. Components
+@import
+  'components/events',
+  'components/faq',
+  'components/listing',
+  'components/news',
+  'components/newsletter',
+  'components/search',
+  'components/slider',
+  'components/accordion',
+  'components/downloads',
+  'components/comments',
+  'components/toplink',
+  'components/details';
+
+// 6. Page-specific styles - optional: add page spezific styles
+@import
+  'pages/home';
+
+// 7. Themes - optional: add theme spezific styles
+@import
+  'themes/print';
+
+// 8. Mediaqueries - optional: add details for different media
+@import
+  'media/responsive400',
+  'media/responsive479',
+  'media/responsive767',
+  'media/responsive768-979'; 

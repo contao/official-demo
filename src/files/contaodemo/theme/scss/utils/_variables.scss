@@ -1,0 +1,277 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+//width and media
+$small: 320 $default;
+$medium: 480 $default;
+$large: 768 $default;
+$xlarge: 1024 $default;
+$xxlarge: 1280 $default;
+$max-width: $xxlarge px $default;
+
+
+//global colors
+$white         : #FFFFFF ;
+$ghost         : #FAFAFA ;
+$snow          : #F9F9F9 ;
+$vapor         : #F6F6F6 ;
+$white-smoke   : #F5F5F5 ;
+$silver        : #EFEFEF ;
+$smoke         : #EEEEEE ;
+$gainsboro     : #DDDDDD ;
+$iron          : #CCCCCC ;
+$base          : #AAAAAA ;
+$aluminum      : #999999 ;
+$jumbo         : #888888 ;
+$monsoon       : #777777 ;
+$steel         : #666666 ;
+$charcoal      : #555555 ;
+$tuatara       : #444444 ;
+$oil           : #333333 ;
+$jet           : #222222 ;
+$black         : #000000 ;
+
+//theme colors
+$middle-orange-grey: #60584D;
+$dark-orange-grey: #7F7266;
+$orange-grey: #9E9084;
+$light-orange-grey: #BEB1A9;
+$dark-orange: #DE601A;
+$dark-orange-2: #473F3A;
+$dark-orange-brown: #5D2F00;
+$orange: #E37A25; //primary
+$light-orange: #FF9B50;
+$confirm-color: #00ADF1;
+$error-color: #C20000;
+
+
+$white-2: #FDFDFD;
+$light-grey-0: #FBFAF9;
+$light-grey-1: #F4F2F0; 
+$light-grey-8: #F6F6F6; 
+$light-grey-2: #eae5e2;
+$light-grey-3: #EEE9E7;
+$light-grey-4: #E1DAD6;
+$light-grey-9: #E5DFDC;
+$light-grey-7: #D4CBC5;
+
+//globals
+$body-font-size: 16px ;
+$rem-base: $body-font-size ;
+$body-font-stack: 'Open Sans',Verdana,Arial,Helvetica,sans-serif ;
+
+$body-color: $middle-orange-grey ;
+$body-bg-color: $light-orange-grey ;
+$link-color: $middle-orange-grey ;
+$link-hover-color: $orange ;
+$headline-2-color: $orange ;
+$headline-3-color: $orange ;
+$legend-color: $orange ;
+//header
+$header-top-bar-font-size: rem-calc(12) ;
+
+//forms
+$form-color: $orange ;
+$form-field-border-color: $light-grey-7 ;
+$form-field-bg-color: $light-grey-1 ;
+$form-field-focus-bg-color: $white-2 ;
+$form-field-focus-border-color: $error-color ;
+$form-field-hover-bg-color: $white-2 ;
+$form-field-hover-border-color: $orange ;
+$form-legend-color: $confirm-color ;
+//buttons
+$button-color: $white ;
+$button-border-color: $dark-orange ;
+$button-bg-color: $orange ;
+$button-bg-color-l: $light-orange ;
+$button-bg-color-m: $button-bg-color ;
+$button-bg-color-n: $button-bg-color ;
+$button-bg-color-o: $dark-orange ;
+//buttons hover
+$button-hover-color: $white ;
+$button-hover-border-color: $dark-orange ;
+$button-hover-bg-color: $dark-orange ;
+$button-hover-bg-color-l: $button-hover-bg-color ;
+$button-hover-bg-color-m: $orange ;
+$button-hover-bg-color-n: $orange ;
+$button-hover-bg-color-o: $light-orange ;
+
+
+//layout
+$wrapper-bg-color: $light-grey-0 ;
+$box1-bg-color: $light-grey-3 ;
+$box1-border-color: $light-grey-7 ;
+//header
+$header-top-bar-border-color: $light-grey-7 ;
+$header-top-bar-bg-color: $light-grey-2 ;
+$header-line-border-color: $light-grey-7 ;
+//footer
+$footer-bg-color: $dark-orange-2 ;
+$footer-color: $orange-grey ;
+$footer-link-color: $white ;
+$footer-list-border-color: $dark-orange-grey ;
+
+//navigations
+$nav-font-size: rem-calc(16) ;
+$nav-meta-font-size: $header-top-bar-font-size ;
+$nav-meta-line-height: rem-calc(25) ;
+//nav-main
+$nav-main-link-unified-color: $dark-orange-grey ;
+$nav-main-link-unified-border-color: $light-grey-7 ;
+//define as mixin or function later!!
+$nav-main-link-bg-color: $light-grey-1 ;
+$nav-main-link-bg-color-l: $nav-main-link-bg-color ;
+$nav-main-link-bg-color-m: $light-grey-3 ;
+$nav-main-link-bg-color-n: $light-grey-4 ;
+//hover
+$nav-main-link-hover-color: $orange ;
+$nav-main-link-hover-border-color: $light-grey-9 ;
+$nav-main-link-hover-bg-color: $light-grey-1 ;
+//active
+$nav-main-link-active-color: $white ;
+$nav-main-link-active-border-color: $dark-orange ;
+$nav-main-link-active-bg-color: $orange ;
+//define as mixin or function later!!
+$nav-main-link-active-bg-color-l: $light-orange ;
+$nav-main-link-active-bg-color-m: $orange ;
+$nav-main-link-active-bg-color-n: $orange ;
+$nav-main-link-active-bg-color-o: $dark-orange ;
+//dropdown
+$nav-main-dropdown-font-size: rem-calc(16) ;
+$nav-main-dropdown-color: $light-grey-9 ;
+$nav-main-dropdown-bg-color: $light-grey-1 ;
+$nav-main-dropdown-link-border-top-color: $white ;
+$nav-main-dropdown-link-border-bottom-color: $light-grey-9 ;
+//hover+active
+$nav-main-dropdown-link-active-color: $orange ;
+$nav-main-dropdown-link-active-bg-color: $light-grey-1 ;
+//nav-left
+$nav-left-border-color: $light-grey-7 ;
+$nav-left-link-active-border-top-color: $dark-orange ;
+//pagination
+$pagination-border-color: $light-grey-7 ;
+//booknav
+$booknav-border-color: $light-grey-7 ;
+//breadcrumb
+$breadcrumb-link-font-size: rem-calc(9) ;
+$breadcrumb-li-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-small.png") ;
+$breadcrumb-link-active-color: $orange ;
+//sitemap
+$sitemap-li-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_normal.png") ;
+$sitemap-li-first-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_first.png") ;
+$sitemap-li-last-bg-image: url("../../../../files/contaodemo/theme/img/bg/sitemap_last.png") ;
+$sitemap-link-color: $light-grey-0;
+//burger menu
+$burger-font-size: rem-calc(18) ;
+$burger-menu-bg-image: url("../../../../files/contaodemo/theme/img/nav_mobile.png") ;
+$burger-menu-color: $orange ;
+//components
+//slider
+$slider-box-bg-color: $light-grey-3 ;
+$slider-box-bg-color-m: $slider-box-bg-color ;
+$slider-box-bg-color-n: $light-grey-1 ;
+$slider-controlls-menu-font-size: rem-calc(50) ;
+$slider-controlls-menu-line-height: rem-calc(50) ;
+$slider-controlls-prev-next-font-size: rem-calc(14) ;
+$slider-controlls-color: $dark-orange-grey ;
+$slider-controlls-border-color: $light-grey-7 ;
+$slider-controlls-bg-color: $light-grey-1 ;
+$slider-controlls-bg-color-m: $slider-controlls-bg-color ;
+$slider-controlls-bg-color-n: $light-grey-3 ;
+$slider-controlls-bg-color-o: $light-grey-4 ;
+//active
+$slider-controlls-active-color: $white ;
+$slider-controlls-active-border-color: $dark-orange ;
+$slider-controlls-active-bg-color: $orange ;
+$slider-controlls-active-bg-color-l: $light-orange ;
+$slider-controlls-active-bg-color-m: $slider-controlls-active-bg-color ;
+$slider-controlls-active-bg-color-n: $slider-controlls-active-bg-color ;
+$slider-controlls-active-bg-color-o: $dark-orange ;
+
+//search
+$search-result-border-color: $light-grey-7 ;
+$search-h3-link-color: $orange ;
+$search-relevance-font-size: rem-calc(8) ;
+$search-relevance-color: $middle-orange-grey ;
+$search-formbody-border-color: $light-grey-7 ;
+$search-formbody-bg-color: $light-grey-3 ;
+$search-highlight-color: $orange ;
+
+//news
+$newsmenu-year-font-size: rem-calc(16) ;
+$newsmenu-year-border-color: $light-grey-7 ;
+$newsmenu-year-bg-color: $orange ;
+$newsmenu-year-color: $middle-orange-grey ;
+$newsmenu-link-font-size: rem-calc(12) ;
+$newsmenu-link-bg-image: url('../../../../files/contaodemo/theme/img/icons/icon_arrow-right-grey.png') ; 
+$newsmenu-link-border-bottom-color: $light-grey-7 ;
+$newsmenu-link-color: $middle-orange-grey ;
+$newsmenu-link-border-top-color: $white ;
+//hover
+$newsmenu-link-hover-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-right-orange.png") ;
+$newsmenu-link-hover-color: $orange ;
+//active
+$newsmenu-link-active-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-right-darkorange.png") ;
+$newsmenu-link-active-color: $white ;
+$newsmenu-link-active-bg-color: $orange ;
+$newsmenu-link-active-border-top-color: $orange ;
+$newslist-info-font-size: rem-calc(11) ;
+$newsarchive-info-font-size: rem-calc(8) ;
+//newsletter
+$newsletter-form-border-color: $light-grey-7 ;
+$newsletter-form-bg-color: $light-grey-3;
+$newsletter-list-border-color: $light-grey-7 ;
+$newsletter-list-bg-color: $light-grey-3;
+$newsletter-list-color: $dark-orange-grey ;
+$newsletter-list-headline-color: $orange;
+$newsletter-list-link-hover-color: $orange;
+//faq
+$faq-info-font-size: rem-calc(12) ;
+$faq-info-border-color: $light-grey-7 ;
+//events
+$eventlist-event-border-color: $light-grey-7 ;
+$calender-left-font-size: rem-calc(9) ;
+$calender-header-font-size: rem-calc(18) ;
+$calender-days-bg-color: $light-grey-1 ;
+$calender-days-active-bg-color: $orange ;
+$calender-days-active-color: $white ;
+$calender-days-hover-color: $dark-orange-brown ;
+$calender-empty-bg-color:  $light-grey-4 ;
+$calender-head-link-hover-color: $orange ;
+
+//ce
+//accordion
+$accordion-inner-border-color: $light-grey-7 ;
+$accordion-inner-bg-color: $light-grey-1 ;
+$accordion-border-color: $light-grey-7 ;
+$accordion-toggler-font-size: rem-calc(16);
+$accordion-toggler-color: $dark-orange-grey ;
+$accordion-toggler-border-color: $light-grey-7 ;
+$accordion-toggler-bg-color: $light-grey-1 ;
+$accordion-toggler-bg-color-m: $accordion-toggler-bg-color ;
+$accordion-toggler-bg-color-n: $light-grey-3 ;
+$accordion-toggler-bg-color-o: $light-grey-4 ;
+$accordion-toggler-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-bottom.png") ;
+//hover
+$accordion-toggler-hover-color: $orange ;
+$accordion-toggler-active-bg-image: url("../../../../files/contaodemo/theme/img/icons/icon_arrow-top.png") ;
+$accordion-toggler-active-color: $orange ;
+
+//table
+$table-border-color: $light-grey-7 ;
+$table-th-bg-color: $light-grey-3 ;
+$table-td-odd-bg-color: $light-grey-8 ;
+$table-td-even-bg-color: $light-grey-1 ;
+
+//comments
+$comments-color: $orange ;
+$comments-comment-border-color: $light-grey-7 ;
+
+//container
+$container-imagecontainer-img-border-color: $light-grey-7 ;
+$container-imagecontainer-hover-img-border-color: $orange ;
+$container-caption-bg-color: $light-grey-3 ;
+$container-downloads-border-color: $light-grey-7 ;
+$container-downloads-li-bg-color: $light-grey-1 ;

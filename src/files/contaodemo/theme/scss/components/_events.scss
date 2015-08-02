@@ -1,0 +1,70 @@
+.mod_eventlist.example .event {
+    overflow:hidden;
+    margin:15px 0 0;
+    padding:0 0 15px;
+    border-bottom:1px solid;
+    border-color: $eventlist-event-border-color;
+}
+.mod_calendar .days {
+    background:$calender-days-bg-color;
+}
+#main .mod_eventlist.example .last {
+    border-bottom: 1px solid transparent;
+}
+.mod_eventlist.example .layout_upcoming a {
+    width:99%;
+    float:left;
+    display:block;
+}
+.mod_eventlist.example .layout_upcoming.example .date {
+    display:block;
+}
+.mod_eventlist.example .layout_upcoming.example .time {
+    display:none;
+}
+.mod_calendar .active.days {
+    font-weight:bold;
+    background-color: $calender-days-active-bg-color;
+     color: $calender-days-active-color;
+}
+.mod_calendar .active a {
+    color: $calender-days-active-color;
+}
+.mod_calendar .active a:hover,
+#main .mod_calendar .active a:hover {
+    color: $calender-days-hover-color;
+}
+.mod_calendar .header {
+    text-align:center;
+    font-size:$calender-header-font-size;
+}
+.mod_calendar th {
+    text-align:center;
+}
+.mod_calendar .empty {
+    background: $calender-empty-bg-color;
+}
+.mod_calendar .label > span {
+    display:none;
+}
+.mod_calendar thead .label {
+    width:14.28%;
+}
+#left .mod_calendar {
+    width:100%;
+    margin:0;
+    font-size:$calender-left-font-size;
+}
+.box-2 .last td {
+    text-align:center;
+    border-bottom: none;
+}
+.box-2 td {
+    text-align:center;
+}
+.mod_calendar .head a {
+    text-decoration:none;
+}
+.mod_calendar .head a:hover {
+    color: $calender-head-link-hover-color;
+}

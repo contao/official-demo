@@ -1,0 +1,41 @@
+
+.comment_default {
+    margin-bottom:20px;
+}
+.ce_comments p.info {
+    margin:0;
+    padding:5px;
+    font-weight:bold;
+    color: $comments-color;
+}
+.ce_comments .comment {
+    margin:0;
+    padding:0 5px;
+    border:1px solid;
+    border-color: $comments-comment-border-color;
+}
+.ce_comments .reply {
+    margin:10px 0 0 30px;
+    padding:0;
+}
+.ce_comments .reply p.info {
+    background: transparent;
+}
+.ce_comments .form {
+    margin-top:30px;
+}
+.ce_comments .widget {
+    margin-top:15px;
+}
+.ce_comments .text,
+.ce_comments .formbody label {
+    display:inline-block;
+}
+.ce_comments .text {
+    width:29%;
+    margin-right:1%;
+}
+.ce_comments .formbody label {
+    width:40%;
+    margin-top:0;
+}

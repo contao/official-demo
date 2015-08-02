@@ -1,0 +1,76 @@
+
+/* outer wrapper of each ce */
+.ce_accordion {
+    margin-top:-1px;
+    border:1px solid $accordion-border-color;
+    border-bottom: none;
+}
+
+/* headline as trigger for the accordion */
+.toggler {
+    position:relative;
+    padding:6px 10px;
+    border-top:0px solid;
+    border-right:0px solid;
+    border-bottom:1px solid;
+    border-left:0px solid;
+    font-size:$accordion-toggler-font-size;
+    font-weight:bold;
+    cursor: pointer;
+    color: $accordion-toggler-color;
+    border-color: $accordion-toggler-border-color;
+        /* Old browsers */
+        background: $accordion-toggler-bg-color;
+        /* FF3.6+ */
+        background: -moz-linear-gradient(top, $accordion-toggler-bg-color-m 0%, $accordion-toggler-bg-color-n 3%, $accordion-toggler-bg-color-o 100%);
+        /* Chrome,Safari4+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$accordion-toggler-bg-color-m), color-stop(3%,$accordion-toggler-bg-color-n), color-stop(100%,$accordion-toggler-bg-color-o));
+        /* Chrome10+,Safari5.1+ */
+        background: -webkit-linear-gradient(top, $accordion-toggler-bg-color-m 0%,$accordion-toggler-bg-color-n 3%,$accordion-toggler-bg-color-o 100%);
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, $accordion-toggler-bg-color-m 0%,$accordion-toggler-bg-color-n 3%,$accordion-toggler-bg-color-o 100%);
+        /* IE10+ */
+        background: -ms-linear-gradient(top, $accordion-toggler-bg-color-m 0%,$accordion-toggler-bg-color-n 3%,$accordion-toggler-bg-color-o 100%);
+        /* W3C */
+        background: linear-gradient(to bottom, $accordion-toggler-bg-color-m 0%,$accordion-toggler-bg-color-n 3%,$accordion-toggler-bg-color-o 100%);
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accordion-toggler-bg-color-m', endColorstr='$accordion-toggler-bg-color-n',GradientType=0 );
+}
+.toggler:after {
+    width:20px;
+    height:20px;
+    right:10px;
+    position:absolute;
+    display:block;
+    background-image:$accordion-toggler-bg-image;
+    background-repeat:no-repeat;
+    text-indent:-99999px;
+    content: '.';
+    top: 8px;
+    background-position: 100% 5px;
+}
+
+/* toggle active and hover status */
+.toggler:hover{
+    color: $accordion-toggler-hover-color ;
+}
+.toggler:focus {
+    outline: none;
+}
+
+/* inside active */
+.toggler.ui-state-active:after {
+    background-image:$accordion-toggler-active-bg-image;
+}
+.toggler.active ,
+.toggler.ui-state-active span {
+    color: $accordion-toggler-active-color;
+}
+
+/* styling for inner > inner wrapper */
+.accordion > div {
+    padding:6px 10px;
+    border-bottom:1px solid;
+    border-color: $accordion-inner-border-color;
+    background-color: $accordion-inner-bg-color;
+}

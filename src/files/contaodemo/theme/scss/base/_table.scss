@@ -1,0 +1,43 @@
+/* stretch up the tables */
+table {
+    width:100%;
+    margin-bottom:10px;
+    border:1px solid;
+    border-collapse:collapse;
+    border-color: $table-border-color;
+}
+table caption {
+    margin-bottom:10px;
+    text-align:left;
+    font-weight:bold;
+}
+th,
+td {
+    border-right:1px solid;
+    border-bottom:1px solid;
+    border-color: $table-border-color;
+    vertical-align:top;
+}
+
+/* headline styling */
+th {
+    padding:1%;
+    text-align:left;
+    background-color: $table-th-bg-color;
+}
+
+/* simple body item styles */
+td {
+    padding:8px;
+}
+td.col_last {
+    border-right: none;
+}
+.odd td {
+    background-color: $table-td-odd-bg-color;
+}
+
+/* bring up some zebra look */
+.even td {
+    background-color:$table-td-even-bg-color;
+}
