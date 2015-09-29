@@ -88,7 +88,7 @@
 
 	span.active {
 		background-image:url("#{$path-css-to-img-folder}/icons/icon_arrow-right-darkorange.png");
-		color:#fff;
+		color:$navOnColor;
 		background-color: $highlightcolor;
 		border-top-color: $highlightcolor;
 	}
