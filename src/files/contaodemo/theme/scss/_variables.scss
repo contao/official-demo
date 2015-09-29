@@ -39,3 +39,7 @@ $inputOffBg:				#f4f2f0;
 $inputOnBg:					#fdfdfd;
 $errorColor:					#c20000;
 $confirmColor:					#00adf1;
+
+@function data-quote($input) { /* compile $input in single quotes */
+	@return "'" + $input + "'";
+}
