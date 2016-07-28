@@ -33,7 +33,7 @@
 	/* W3C */
 	background: linear-gradient(to bottom,  $navOffGradient1 0%,$navOffGradient2 3%,$navOffGradient3 100%);
 	/* IE6-9 */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$navOffGradient1', endColorstr='$navOffGradient2',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($navOffGradient1)}, endColorstr=#{data-quote($navOffGradient2)},GradientType=0 );
 	font-size: 1.143em;
 	cursor: pointer;
 
@@ -43,7 +43,7 @@
 		right:10px;
 		position:absolute;
 		display:block;
-		background-image:url("../img/icons/icon_arrow-bottom.png");
+		background-image:url("#{$path-css-to-img-folder}/icons/icon_arrow-bottom.png");
 		background-repeat:no-repeat;
 		text-indent:-9999em;
 		content: '.';
@@ -64,7 +64,7 @@
 
 	/* inside active */
 	&.ui-state-active:after {
-		background-image:url("../img/icons/icon_arrow-top.png");
+		background-image:url("#{$path-css-to-img-folder}/icons/icon_arrow-top.png");
 	}
 	&.ui-state-active span {
 		color: $highlightcolor;
@@ -266,7 +266,7 @@ td {
 	/* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$navOffGradient2), color-stop(100%,$navOffGradient1));
 	/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  $navOffGradient2 0%,#f4f2f1 100%);
+	background: -webkit-linear-gradient(top, $navOffGradient2 0%,$navOffGradient1 100%);
 	/* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  $navOffGradient2 0%,$navOffGradient1 100%);
 	/* Opera 11.10+ */
@@ -274,7 +274,7 @@ td {
 	/* IE10+ */
 	background: linear-gradient(to bottom,  $navOffGradient2 0%,$navOffGradient1 100%);
 	/* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$navOffGradient2', endColorstr='$navOffGradient1',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($navOffGradient2)}, endColorstr=#{data-quote($navOffGradient1)},GradientType=0 );
 	/* IE6-9 */;
 }
 .slidebox1 h1,
@@ -323,7 +323,7 @@ td {
 		/* W3C */
 		background: linear-gradient(to bottom,  $navOffGradient1 0%,$navOffGradient2 3%,$navOffGradient3 100%);
 		/* IE6-9 */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$navOffGradient1', endColorstr='$navOffGradient2',GradientType=0 );
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($navOffGradient1)}, endColorstr=#{data-quote($navOffGradient2)},GradientType=0 );
 		font-size: 1.143em;
 	}
 }
@@ -348,7 +348,7 @@ td {
 	/* W3C */
 	background: linear-gradient(to bottom,  $navOnGradient1 0%,$navOnGradient2 3%,$navOnGradient3 96%,$navOnGradient4 100%);
 	/* IE6-9 */;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$navOnGradient1', endColorstr='$navOnGradient2',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($navOnGradient1)}, endColorstr=#{data-quote($navOnGradient2)},GradientType=0 );
 }
 .sliderdemo .content-slider {
 	margin-right:10px;

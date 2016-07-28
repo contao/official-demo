@@ -173,45 +173,45 @@ span.captcha_text {
 	border:1px solid;
 	font-weight:bold;
 	border-color: $navOnBorder;
-	color: #ffffff;
+	color: $navOnColor;
 	/* Old browsers */
 	background: $navOnGradient2;
 	/* FF3.6+ */
-	background: -moz-linear-gradient(top,  #FF9B50 0%, $highlightcolor 3%, $highlightcolor 96%, #DE601A 100%);
+	background: -moz-linear-gradient(top, $navOnGradient1 0%, $highlightcolor 3%, $highlightcolor 96%, $navOnGradient4 100%);
 	/* Chrome,Safari4+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FF9B50), color-stop(3%,$highlightcolor), color-stop(96%,$highlightcolor), color-stop(100%,#DE601A));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$navOnGradient1), color-stop(3%,$highlightcolor), color-stop(96%,$highlightcolor), color-stop(100%,$navOnGradient4));
 	/* Chrome10+,Safari5.1+ */
-	background: -webkit-linear-gradient(top,  #FF9B50 0%,$highlightcolor 3%,$highlightcolor 96%,#DE601A 100%);
+	background: -webkit-linear-gradient(top, $navOnGradient1 0%,$highlightcolor 3%,$highlightcolor 96%,$navOnGradient4 100%);
 	/* Opera 11.10+ */
-	background: -o-linear-gradient(top,  #FF9B50 0%,$highlightcolor 3%,$highlightcolor 96%,#DE601A 100%);
+	background: -o-linear-gradient(top, $navOnGradient1 0%,$highlightcolor 3%,$highlightcolor 96%,$navOnGradient4 100%);
 	/* IE10+ */
-	background: -ms-linear-gradient(top,  #FF9B50 0%,$highlightcolor 3%,$highlightcolor 96%,#DE601A 100%);
+	background: -ms-linear-gradient(top, $navOnGradient1 0%,$highlightcolor 3%,$highlightcolor 96%,$navOnGradient4 100%);
 	/* W3C */
-	background: linear-gradient(to bottom,  #FF9B50 0%,$highlightcolor 3%,$highlightcolor 96%,#DE601A 100%);
+	background: linear-gradient(to bottom, $navOnGradient1 0%,$highlightcolor 3%,$highlightcolor 96%,$navOnGradient4 100%);
 	/* IE6-9 */;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF9B50', endColorstr='$highlightcolor',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($navOnGradient1)}, endColorstr=#{data-quote($highlightcolor)},GradientType=0 );
 	cursor: pointer;
 }
 #container .submit:hover {
 	display:inline-block;
 	border-color: $navOnGradient4;
-	color: #ffffff;
+	color: $navOnColor;
 	/* Old browsers */
 	background: $navOnGradient4;
 	/* FF3.6+ */
-	background: -moz-linear-gradient(top,  #DE601A 0%, $highlightcolor 10%, $highlightcolor 96%, #FF9B50 100%);
+	background: -moz-linear-gradient(top, $navOnGradient4 0%, $highlightcolor 10%, $highlightcolor 96%, $navOnGradient1 100%);
 	/* Chrome,Safari4+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DE601A), color-stop(10%,$highlightcolor), color-stop(96%,$highlightcolor), color-stop(100%,#FF9B50));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$navOnGradient4), color-stop(10%,$highlightcolor), color-stop(96%,$highlightcolor), color-stop(100%,$navOnGradient1));
 	/* Chrome10+,Safari5.1+ */
-	background: -webkit-linear-gradient(top,  #DE601A 0%,$highlightcolor 10%,$highlightcolor 96%,#FF9B50 100%);
+	background: -webkit-linear-gradient(top, $navOnGradient4 0%,$highlightcolor 10%,$highlightcolor 96%,$navOnGradient1 100%);
 	/* Opera 11.10+ */
-	background: -o-linear-gradient(top,  #DE601A 0%,$highlightcolor 10%,$highlightcolor 96%,#FF9B50 100%);
+	background: -o-linear-gradient(top, $navOnGradient4 0%,$highlightcolor 10%,$highlightcolor 96%,$navOnGradient1 100%);
 	/* IE10+ */
-	background: -ms-linear-gradient(top,  #DE601A 0%,$highlightcolor 10%,$highlightcolor 96%,#FF9B50 100%);
+	background: -ms-linear-gradient(top, $navOnGradient4 0%,$highlightcolor 10%,$highlightcolor 96%,$navOnGradient1 100%);
 	/* W3C */
-	background: linear-gradient(to bottom,  #DE601A 0%,$highlightcolor 10%,$highlightcolor 96%,#FF9B50 100%);
+	background: linear-gradient(to bottom, $navOnGradient4 0%,$highlightcolor 10%,$highlightcolor 96%,$navOnGradient1 100%);
 	/* IE6-9 */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$highlightcolor', endColorstr='$highlightcolor',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{data-quote($highlightcolor)}, endColorstr=#{data-quote($highlightcolor)},GradientType=0 );
 	cursor: pointer;
 }
 select {
