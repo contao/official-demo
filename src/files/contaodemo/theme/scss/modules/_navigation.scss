@@ -13,13 +13,13 @@
 .nav-main > ul > li > .active,
 .nav-main > ul > li > .trail,
 .nav-left a,
-.nav-left span.active,
-.nav-left span.trail,
+.nav-left strong.active,
+.nav-left strong.trail,
 .nav-left a.trail,
 .pagination a,
-.pagination span,
+.pagination strong,
 .mod_booknav a,
-.mod_booknav span {
+.mod_booknav strong {
     display:block;
     padding:8px;
     border:1px solid;
@@ -60,11 +60,11 @@
 /* Unified Active Status for Navigation Items */
 .nav-main > ul > li > .active,
 .nav-main > ul > li > .trail,
-.nav-left span.active,
-.nav-left span.trail,
+.nav-left strong.active,
+.nav-left strong.trail,
 .nav-left a.trail,
-.pagination span,
-.mod_booknav span {
+.pagination strong,
+.mod_booknav strong {
     border-color: $navOnBorder;
     color: $navOnColor;
     /* Old browsers */
@@ -103,7 +103,6 @@
     &.dropdown {
         > ul > li.submenu:hover > a,
         > ul > li.submenu:hover > .active {
-            padding-bottom:15px;
             border-bottom: none;
         }
 
@@ -145,7 +144,7 @@
 
         /* style the buttons */
         .level_2 a,
-        .level_2 span {
+        .level_2 strong {
             clear:both;
             display:block;
             padding:8px;
@@ -157,7 +156,7 @@
             border-bottom-color: $navSubItemBorderBottom;
         }
         .level_2 a.last,
-        .level_2 span.last {
+        .level_2 strong.last {
             border-bottom: none;
         }
     }
@@ -200,8 +199,8 @@
     border-color: $navOffBorder;
 
     a,
-    span.active,
-    span.trail,
+    strong.active,
+    strong.trail,
     a.trail {
         padding:10px;
         border-top: none;
@@ -209,15 +208,15 @@
         border-right: none;
     }
 
-    span.active,
-    span.trail,
+    strong.active,
+    strong.trail,
     a.trail {
         border-top: 1px solid $navOnBorder;
     }
 
     .last a,
-    .last span.active,
-    span.trail {
+    .last strong.active,
+    strong.trail {
         border-bottom: none;
     }
 }
@@ -241,7 +240,7 @@
     }
 
     a,
-    span {
+    strong {
         display:inline-block;
         margin-right:2px;
         padding:5px 10px;
@@ -266,7 +265,7 @@
     }
 
     a,
-    span {
+    strong {
         margin-right:2px;
         padding:5px;
     }
