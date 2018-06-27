@@ -8,7 +8,7 @@ This might be the default way to use a search engine. Simply enter one or more k
 
 ### 2. WILDCARD SEARCH
 
-By default, the search engine searches for exact keywords only. This means that a search for music will not return pages containing the words musical or musician. However, if you want to search for all words that begin with music, you can add an asterisk (*) after the keyword (music* instead of music). Of course, you can also put the wildcard in front of a keyword or in the middle of a keyword.
+By default, the search engine searches for exact keywords only. This means that a search for music will not return pages containing the words musical or musician. However, if you want to search for all words that begin with music, you can add an asterisk (*) after the keyword (music* instead of music). Of course, you can also put the wildcard in front of a keyword.
 
 ### 3. PHRASE SEARCH
 
