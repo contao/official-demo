@@ -4,7 +4,7 @@ Page: Modules | Events
 
 Here are some examples on how the calendar modules can be used. You can either use a big calendar view, a mini-calender as shown on the left side below the vertical navigation or an event-list shown at the bottom of the page. All of those offer you different options of with what, where, when and how to display the calendar.
 
-To see some actual calendar entries click here to go to March 2013.
+To see some actual calendar entries click here to go to May 2013.
 
 ## List all events
 
