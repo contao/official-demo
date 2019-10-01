@@ -1,10 +1,9 @@
-# How to update the COD
+﻿# How to update the COD
 
 ## Contao
 - use last version of COD and import fresh SQL template
 - update Contao to new version und update database
-- export database (see configuration, remove `tl_log` entry)
-![configure export for phpMyAdmin][SQL Export.png]
+- export database (see configuration `SQL Export.png`, remove `tl_log` entry)
 
 ## SQL
 - archive old SQL file (move to folder `sql-archive`)
@@ -12,7 +11,7 @@
 - insert SQL content from export
 
 ## `composer.json`
-- define min version f�r `core-bundle`
+- define min version für `core-bundle`
 - update referenced SQL file name
 
 ## Theme Import
