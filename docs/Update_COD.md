@@ -2,8 +2,8 @@
 
 ## Contao
 - use last version of COD and import fresh SQL template
-- update Contao to new version und update database
-- export database (see configuration `SQL Export.png`, remove `tl_log` entry)
+- update Contao to new version und update database (use release alias of COD for version to avoid errors)
+- export database (see configuration `SQL Export.png`: only export data, remove `tl_log`, `tl_search`, `tl_search_index`)
 
 ## SQL
 - archive old SQL file (move to folder `sql-archive`)
