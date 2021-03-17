@@ -2,12 +2,12 @@
 
 ## Contao
 - use last version of COD and import fresh SQL template
-- update Contao to new version und update database (use release alias of COD for version to avoid errors)
-- export database (see configuration `SQL Export.png`: only export data, remove `tl_crawl_queue`, `tl_cron_job`, `tl_log`, `tl_search`, `tl_search_index`, `tl_undo`, `tl_version`)
+- update Contao to new version und update database (use newly created branch alias, e.g. `dev-release/x.x.x` of COD for version to avoid errors)
+- export database (see configuration `SQL Export.png`: only export data, remove `tl_crawl_queue`, `tl_cron_job`, `tl_log`, `tl_search`, `tl_search_index`, `tl_search_term`, `tl_undo`, `tl_version`)
 
 ## SQL
 - archive old SQL file (move to folder `sql-archive`)
-- create new SQL file in folder `src\templates\` with format `codvX.X.X_contao_Y.Y.Y.sql` (X.X.X is the new COD version, Y.Y.Y the min Contao version)
+- create new SQL file in folder `src\templates\` with format `official-demo-for-contao-X.X.X` (X.X.X the min Contao version the demo is tested for)
 - insert SQL content from export
 
 ## `composer.json`
