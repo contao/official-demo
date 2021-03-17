@@ -7,7 +7,7 @@
 
 ## SQL
 - archive old SQL file (move to folder `sql-archive`)
-- create new SQL file in folder `src\templates\` with format `codvX.X.X_contao_Y.Y.Y.sql` (X.X.X is the new COD version, Y.Y.Y the min Contao version)
+- create new SQL file in folder `src\templates\` with format `official-demo-for-contao-X.X.X` (X.X.X the min Contao version the demo is tested for)
 - insert SQL content from export
 
 ## `composer.json`
