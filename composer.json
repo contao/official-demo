@@ -4,17 +4,13 @@
     "description": "Contao Official Demo",
     "license": "CC-BY-SA-4.0",
     "require": {
-        "contao/core-bundle":"~4.10.5",
-        "contao-community-alliance/composer-plugin":"~3.0"
-    },
-    "replace": {
-        "contao-legacy/official_demo": "self.version"
+        "contao/core-bundle":"~4.11.1"
     },
     "extra": {
         "contao": {
             "sources": {
                 "src/files/contaodemo": "files/contaodemo",
-                "src/templates/official-demo-for-contao-4.10.5.sql": "templates/official-demo-for-contao-4.10.5.sql",
+                "src/templates/official-demo-for-contao-4.11.1.sql": "templates/official-demo-for-contao-4.11.1.sql",
                 "src/templates/contaodemo": "templates/contaodemo"
             }
         }
