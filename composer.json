@@ -4,7 +4,8 @@
     "description": "Contao Official Demo",
     "license": "CC-BY-SA-4.0",
     "require": {
-        "contao/core-bundle":"~4.11.1"
+        "contao/core-bundle":"~4.11.1",
+        "contao-community-alliance/composer-plugin":"~3.2"
     },
     "extra": {
         "contao": {
