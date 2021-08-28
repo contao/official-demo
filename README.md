@@ -10,5 +10,6 @@ Visit the [Online Demo][3].
 
 ## About this Demo
 
-This Demo shows the Possibilities of the Contao CMS and allows to study the respective Implementations Options in the Contao Backend.
+This Demo shows the Possibilities of the Contao CMS  
+and allows to study the respective Implementations Options in the Contao Backend.
 
