@@ -12,12 +12,11 @@ the Contao Manager. Visit the [project website][1] for more information.
 The screendesign for the Contao Official Demo is sponsored by borowiakziehe KG. It has been designed by Hannes Oertel who we would like to thank for the great work. The theme was realized by the following contao community members.
 
 ### TEAM:
-
-* Joe Ray Gregory (Coordination, Head of theme development) slash-works.de
-* Sascha Müller (Co-CSS contributor) bytepuzzle.de
+* Sascha Müller (Coordination, Head of theme development) bytepuzzle.de
+* Cliff Parnitzky (Lead Maintainer) cliff-parnitzky.de
 
 ### EX-TEAM MEMBERS:
-
+* Joe Ray Gregory (Coordination, Head of theme development)
 * Stefan Melz (Co-CSS contributor, mobile / responsive optimization) slash-works.de
 * Hans Friedrich Bünte (Lead content contributor) borowiakziehe.de
 * Hannes Oertel (Lead Designer) borowiakziehe.de
