@@ -1,3 +1,14 @@
+
+
+> [!IMPORTANT]
+> **The Contao Official Demo has has been archived and will no longer be maintained.**
+> 
+> Check out the [Contao Demo](https://github.com/contao/contao-demo) project for the current demo website for Contao.
+
+
+<br>
+
+
 Contao Official Demo
 ====================
 
