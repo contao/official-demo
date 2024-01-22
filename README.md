@@ -1,3 +1,11 @@
+
+
+| :exclamation: This repository has been archived. Refer to the [Contao Demo](https://github.com/contao/contao-demo) project for the current demo website.  |
+|-----------------------------------------|
+
+<br>
+
+
 Contao Official Demo
 ====================
 
